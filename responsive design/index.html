@@ -1,0 +1,3742 @@
+
+<html>
+<head>
+<meta charset="utf-8">  
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<title>Creative</title>    
+<style>
+
+body
+{
+font-family: 'Agency fb';
+overflow-x: hidden
+}
+
+*{box-sizing: border-box}    
+
+/**************** MAIN COLOR ==  #e10404 *********************/   
+
+/*************************** NavBar ****************************/    
+
+@media (max-width: 767px) {
+
+.nav ul
+{
+display: none;
+margin-left: 100%;
+padding-left: 0px;
+height: 6000%
+} 
+.nav ul li
+{
+float: none;
+text-align: left;
+padding-left: 15px;
+width: 100%;
+}  
+.nav .fa-bars
+{
+display: block
+}  
+.nav .fa-times
+{
+display: none
+}
+
+} /* mobils & tablets */
+
+@media (min-width: 768px) {
+
+.nav ul
+{
+display: none;
+margin-left: 100%;
+padding-left: 0px;
+height: 6000%
+} 
+.nav ul li
+{
+float: none;
+text-align: left;
+padding-left: 15px;
+width: 100%;
+}     
+.nav .fa-bars
+{
+display: block
+}  
+.nav .fa-times
+{
+display: none
+}    
+
+} /* small */
+
+@media (min-width: 992px) {
+
+.nav ul
+{
+display: block !important;
+margin-left: 0px !important;
+padding-left: 15px;
+height: 100%
+} 
+.nav ul li
+{
+float: left;
+text-align: center; 
+padding-left: 0px;
+width: 150px;
+} 
+.nav i
+{
+display: none !important
+} 
+
+} /* medium */
+
+@media (min-width: 1200px) { 
+
+.nav ul
+{
+display: block !important;
+margin-left: 0px !important;
+padding-left: 15px;
+height: 100%
+}
+.nav ul li
+{
+float: left;
+text-align: center;   
+padding-left: 0px;
+width: 150px;
+} 
+.nav i
+{
+display: none !important
+}     
+
+} /* large */
+
+.nav
+{
+width: 100%;
+height: 60px;    
+position: fixed;
+top: 0px;
+z-index: 99;
+left: 0px;
+}
+.nav ul
+{
+width: 100%;
+list-style: none;
+background-color: #e10404;
+}
+.nav ul li
+{
+height: 60px;
+line-height: 60px;
+color: white;
+transition: 1s all;
+font-size: 25px;
+letter-spacing: 2px;
+cursor: pointer;
+font-weight: bold;
+}
+.nav ul li:hover
+{
+background-color: white;
+color:  #e10404
+}
+.nav i
+{
+position: absolute;
+top: 0px;
+left: 0px;
+height: 60px;
+line-height: 60px;
+color: white;
+font-size: 40px;
+width: 60px;
+text-align: center;
+background-color:  #e10404;
+cursor: pointer;
+transition: 1s all;
+}
+
+/*************************** NavBar ****************************/     
+
+/*************************** Header ****************************/    
+
+/* mobils & tablets */    
+@media (max-width: 767px) {
+
+.header 
+{
+height: 500px;
+}  
+.header .controls
+{
+top: 195px
+}     
+.header .slide
+{
+padding-top: 80px;
+padding-left: 70px;
+}  
+.header .slide .content h1
+{
+font-size: 45px;
+} 
+.header .slide .content h2
+{
+font-size: 30px;
+}     
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.header 
+{
+height: 500px;
+} 
+.header .controls
+{
+top: 195px
+} 
+.header .slide
+{
+padding-top: 80px;
+padding-left: 70px;
+}    
+.header .slide .content h1
+{
+font-size: 45px;
+}    
+.header .slide .content h2
+{
+font-size: 30px;
+}    
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.header 
+{
+height: 600px;
+}  
+.header .controls
+{
+top: 230px
+} 
+.header .slide
+{
+padding-top: 105px;
+padding-left: 90px;
+}
+.header .slide .content h1
+{
+font-size: 55px;
+}    
+.header .slide .content h2
+{
+font-size: 35px;
+} 
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.header 
+{
+height: 600px;
+}    
+.header .controls
+{
+top: 230px
+}   
+.header .slide
+{
+padding-top: 105px;
+padding-left: 90px;
+}
+.header .slide .content h1
+{
+font-size: 55px;
+}    
+.header .slide .content h2
+{
+font-size: 35px;
+}
+
+}     
+
+
+.header 
+{
+width: 100%;
+margin-top: 60px;
+position: relative
+}
+.header .slide
+{
+width: 100%;
+height: 100%;
+background-size: cover;
+background-position: center;
+position: absolute;
+opacity: 0;
+transition: 1s all;
+}
+.header .slide1
+{
+background-image: url(header1.jpg)
+}
+.header .slide2
+{
+background-image: url(header2.jpg)
+}      
+.header .active 
+{
+opacity: 1 !important;
+z-index: 9
+}
+.header .slide .content h1
+{
+line-height: 65px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+.header .slide .content h2
+{
+margin-bottom: 35px
+}
+.header .slide .content button
+{
+width: 165px;
+height: 50px;
+font-size: 20px;
+background-color: rgb(225, 4, 4);
+border: 0px;
+color: white;
+font-weight: bold;
+margin-right: 5px; 
+transition: 1s all
+}
+.header .slide .content button:hover
+{
+background-color: black
+}
+.header .slide .content button:nth-of-type(2)
+{
+background-color: black 
+}
+.header .slide .content button:nth-of-type(2):hover
+{
+background-color: rgb(225, 4, 4);
+}
+.header .controls
+{
+z-index: 99;
+position: relative;
+display: none
+}
+.header .controls i
+{
+font-size: 30px;
+color: white;
+background-color: rgba(0, 0, 0, 0.4);
+width: 40px;
+height: 90px;
+text-align: center;
+line-height: 90px;
+cursor: pointer;
+position: absolute;
+}
+.header .controls .fa-chevron-left
+{
+left: 0px
+}
+.header .controls .fa-chevron-right
+{
+right: 0px
+} 
+
+/*************************** Header ****************************/    
+
+/*********************************** Head *******************************/
+
+/* mobils & tablets */    
+@media (max-width: 767px) {
+
+.head 
+{
+display: block;
+}
+.head h1
+{
+font-size: 45px;
+} 
+.head p
+{
+font-size: 20px;
+margin-top: -15px
+}
+.head button
+{
+margin-left: 0px;
+margin-top: -5px;     
+}
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.head 
+{
+display: block;
+}
+.head h1
+{
+font-size: 45px;
+} 
+.head p
+{
+font-size: 20px;
+margin-top: -15px
+}
+.head button
+{
+margin-left: 0px;
+margin-top: -5px;     
+}
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.head 
+{
+display: block;
+}
+.head h1
+{
+font-size: 45px;
+} 
+.head p
+{
+font-size: 20px;
+margin-top: -15px
+}
+.head button
+{
+margin-left: 0px;
+margin-top: -5px;     
+}
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.head 
+{
+display: flex;
+}
+.head h1
+{
+font-size: 50px;
+}    
+.head p
+{
+font-size: 22px; 
+margin-top: 0px    
+}
+.head button
+{
+margin-left: 100px;
+margin-top: 15px;     
+}
+
+}    
+
+.head 
+{
+width: 100%;
+padding-top: 50px;
+padding-left: 25px;
+}
+.head h1
+{
+margin: 0px;
+color: rgb(225, 4, 4);
+font-weight: bold;
+line-height: 70px;
+margin-right: 40px    
+}
+.head p
+{
+font-weight: bold;
+line-height: 84px;    
+}
+.head button
+{
+width: 210px;
+height: 55px;
+font-size: 18px;
+font-weight: bold;
+background-color: rgb(225, 4, 4);
+border: 0px;
+color: white; 
+transition: 1s all    
+}
+.head button:hover
+{
+background-color: black
+}
+
+/*********************************** Head *******************************/  
+
+
+/*********************************** Head 2 *******************************/    
+
+/* mobils & tablets */    
+@media (max-width: 767px) {
+
+.head2 h2
+{
+font-size: 30px;
+margin-left: 0px
+}  
+.head2 div p
+{
+font-size: 20px;
+margin-left: 0px
+}   
+.head2 div button
+{
+margin-left: 0px
+}
+.head2
+{
+display: block;
+}
+.head2 div
+{
+margin-right: 0%;
+margin-bottom: 7%;
+text-align: center
+}     
+.head2 div img
+{
+width: 60%
+} 
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.head2 h2
+{
+font-size: 29px;
+margin-left: 20px
+}    
+.head2 div p
+{
+font-size: 16px;
+margin-left: 20px
+}    
+.head2 div button
+{
+margin-left: 20px
+}      
+.head2
+{
+display: flex;
+}
+.head2 div
+{
+margin-right: 2%;
+margin-bottom: 0px;
+text-align: left
+}  
+.head2 div img
+{
+width: 100%
+}
+
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.head2 h2
+{
+font-size: 33px;
+margin-left: 20px
+}  
+.head2 div p
+{
+font-size: 18px;
+margin-left: 20px    
+}  
+.head2 div button
+{
+margin-left: 20px
+}    
+.head2
+{
+display: flex;
+}
+.head2 div
+{
+margin-right: 2%;
+margin-bottom: 0px;
+text-align: left
+} 
+.head2 div img
+{
+width: 100%
+}    
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.head2 h2
+{
+font-size: 33px;
+margin-left: 20px;
+}  
+.head2 div p
+{
+font-size: 18px;
+margin-left: 20px;
+} 
+.head2 div button
+{
+margin-left: 20px
+}
+.head2
+{
+display: flex;
+}
+.head2 div
+{
+margin-right: 2%;
+margin-bottom: 0px;
+text-align: left
+}  
+.head2 div img
+{
+width: 100%
+}    
+
+}    
+
+.head2
+{
+width: 95%;
+margin: auto;
+justify-content: center;    
+padding-top: 50px
+}
+.head2 div h2
+{
+color: rgb(225, 4, 4);
+font-weight: bold;
+margin-top: 25px;
+}
+.head2 div p
+{
+font-weight: bold;
+}
+.head2 div button
+{
+width: 165px;
+height: 45px;
+background-color: rgb(225, 4, 4);
+border: 0px;
+color: white;
+font-size: 18px;
+margin-top: 20px;
+font-weight: bold;
+transition: 1s all;
+}
+.head2 div button:hover
+{
+background-color: black
+}
+
+/*********************************** Head 2 *******************************/     
+
+/*************************** About ***************************/    
+
+/* mobils & tablets */        
+@media (max-width: 767px) {
+
+.about
+{
+display: block
+}
+.about .aboutus
+{
+margin-bottom: 30px;
+
+}   
+.about .aboutus
+{
+width: 100%;
+}
+.about .aboutus h2
+{
+font-size: 30px;
+}
+.about .aboutus h1
+{
+font-size:30px;
+}      
+.about .aboutus p
+{
+font-size: 19px;
+}
+.about .aboutus div
+{
+text-align: center
+}
+.about .aboutus div i
+{
+font-size: 50px;
+width: 80px;
+height: 80px;
+line-height: 80px;
+}
+.about .aboutus div i
+{
+float: none;
+}      
+.about .aboutus div h3
+{
+font-size: 25px;
+margin-left: 0px;    
+} 
+.about .aboutus div p
+{
+font-size: 20px;
+margin-left: 0px;
+}  
+.about .aboutus div h3
+{
+width: 100%
+}
+.about .aboutus div p
+{   
+width: 100%
+}    
+.about .questions ul .title
+{
+font-size: 25px;
+height: 55px;
+line-height: 55px;
+}     
+.about .questions ul .info
+{
+font-size: 18px;
+}  
+.about .questions
+{
+width: 100%;
+}
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.about
+{
+display: flex
+}  
+.about .aboutus
+{
+margin-bottom: 0px
+}
+.about .aboutus
+{
+width: 65%;
+}
+.about .aboutus div
+{
+text-align: left
+}  
+.about .aboutus div h3
+{
+width: 70%
+}
+.about .aboutus div p
+{   
+width: 70%
+}
+.about .questions
+{
+width: 35%;
+}
+.about .aboutus h2
+{
+font-size: 30px;
+}
+.about .aboutus h1
+{
+font-size: 28px;
+} 
+.about .aboutus p
+{
+font-size: 17px;
+}
+.about .aboutus div i
+{
+float: left;
+}      
+.about .aboutus div i
+{
+font-size: 40px;
+width: 70px;
+height: 70px;
+line-height: 70px;
+}
+.about .aboutus div h3
+{
+font-size: 22px;
+margin-left: 90px;  
+}
+.about .aboutus div p
+{
+font-size: 17px;
+margin-left: 90px;
+}     
+.about .questions ul .title
+{
+font-size: 20px;
+height: 50px;
+line-height: 50px;
+}    
+.about .questions ul .info
+{
+font-size: 15px;
+height: 235px;
+} 
+
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+
+.about
+{
+display: flex
+} 
+.about .aboutus
+{
+margin-bottom: 0px
+}
+.about .aboutus
+{
+width: 65%;
+}
+.about .aboutus div
+{
+text-align: left
+}    
+.about .aboutus div h3
+{
+width: 70%
+}
+.about .aboutus div p
+{   
+width: 70%
+}
+.about .questions
+{
+width: 35%;
+}
+.about .aboutus h2
+{
+font-size: 30px;
+}
+.about .aboutus h1
+{
+font-size: 35px;
+} 
+.about .aboutus p
+{
+font-size: 20px;
+}
+.about .aboutus div i
+{
+float: left;
+}      
+.about .aboutus div i
+{
+font-size: 50px;
+width: 80px;
+height: 80px;
+line-height: 80px;
+}
+.about .aboutus div h3
+{
+font-size: 25px;
+margin-left: 105px;    
+} 
+.about .aboutus div p
+{
+font-size: 17px;
+margin-left: 105px;
+}    
+.about .questions ul .title
+{
+font-size: 23px;
+height: 55px;
+line-height: 55px;
+} 
+.about .questions ul .info
+{
+font-size: 18px;
+height: 240px;
+} 
+
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.about
+{
+display: flex
+}   
+.about .aboutus
+{
+margin-bottom: 0px
+}
+.about .aboutus
+{
+width: 65%;
+}
+.about .aboutus div
+{
+text-align: left
+}
+.about .aboutus div h3
+{
+width: 70%
+}
+.about .aboutus div p
+{   
+width: 70%
+}
+.about .questions
+{
+width: 35%;
+}
+.about .aboutus h2
+{
+font-size: 35px;
+}
+.about .aboutus h1
+{
+font-size: 38px;
+} 
+.about .aboutus p
+{
+font-size: 20px;
+}
+.about .aboutus div i
+{
+font-size: 52px;
+width: 90px;
+height: 90px;
+line-height: 90px;
+}    
+.about .aboutus div i
+{
+float: left;
+}    
+.about .aboutus div h3
+{
+font-size: 28px;
+margin-left: 115px;    
+}
+.about .aboutus div p
+{
+font-size: 18px;
+margin-left: 115px;
+}     
+.about .questions ul .title
+{
+font-size: 25px;
+height: 60px;
+line-height: 60px;
+}
+.about .questions ul .info
+{
+font-size: 20px;
+height: 240px;
+}    
+
+}   
+
+.about
+{
+width: 95%;
+margin: 100px auto;
+}
+.about .aboutus h2
+{
+font-weight: bold;   
+margin-top: 0px
+}
+.about .aboutus h1
+{
+color: rgb(225, 4, 4);
+font-weight: bold;
+margin-top: 25px;;
+width: 95%
+}
+.about .aboutus p
+{
+font-weight: bold;
+margin-top: 20px;   
+color: rgba(0, 0, 0, 0.43); 
+width: 95%
+}
+.about .aboutus div i
+{
+border-radius: 50%;
+background-color: rgb(225, 4, 4);
+text-align: center;
+color: white;
+transition: 1s all;
+cursor: pointer
+}
+.about .aboutus div i:hover
+{
+background-color: black
+}
+.about .aboutus div h3
+{
+font-weight: bold;
+padding-top: 12px;
+}
+.about .aboutus div p
+{
+font-weight: bold;
+margin-top: 15px;
+color: rgba(0, 0, 0, 0.43);    
+}
+.about .questions ul
+{
+list-style: none;
+padding: 0px;
+}
+.about .questions ul li
+{
+width: 100%;
+}
+.about .questions ul .title
+{
+color: white;
+font-weight: bold;
+background-color: rgb(225, 4, 4);
+padding-left: 20px;
+margin-bottom: 10px;
+cursor: pointer
+}
+.about .questions ul .info
+{
+font-weight: bold;
+padding-top: 3%;
+padding-bottom: 3%;
+padding-left: 3%;
+padding-right: 3%;
+line-height: 30px;
+display: none
+}
+
+/*************************** About ***************************/
+
+
+/**************************** staticts ******************************/    
+
+/* mobils & tablets */    
+@media (max-width: 767px) {
+
+.staticts .myContainer
+{
+display: block;
+}
+.staticts div i
+{
+font-size: 100px;
+margin-right: 0px;
+}
+.staticts div h3
+{
+font-size: 50px;
+}
+.staticts div p
+{
+font-size: 25px;
+} 
+.staticts .myContainer div
+{
+display: block;
+text-align: center
+}
+.staticts .myContainer div:first-of-type,
+.staticts .myContainer div:nth-of-type(2),
+.staticts .myContainer div:nth-of-type(3)
+{
+margin-right: 0px;
+margin-bottom: 65px
+}
+.staticts
+{
+height: 1100px;
+padding-top: 50px
+}
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.staticts .myContainer
+{
+display: flex;
+}
+.staticts div i
+{
+font-size: 65px;
+margin-right: 20px;
+}
+.staticts div h3
+{
+font-size: 30px;
+}
+.staticts div p
+{
+font-size: 15px;
+}   
+.staticts .myContainer div
+{
+display: flex;
+align-items: center;
+text-align: left
+} 
+.staticts .myContainer div:first-of-type,
+.staticts .myContainer div:nth-of-type(2),
+.staticts .myContainer div:nth-of-type(3)
+{
+margin-right: 50px;
+margin-bottom: 0px
+}
+.staticts
+{
+height: 200px;
+padding-top: 0px
+}
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.staticts .myContainer
+{
+display: flex;
+}
+.staticts div i
+{
+font-size: 75px;
+margin-right: 20px;
+}
+.staticts div h3
+{
+font-size: 37px;
+}
+.staticts div p
+{
+font-size: 18px;
+}   
+.staticts .myContainer div
+{
+display: flex;
+align-items: center;
+text-align: left
+} 
+.staticts .myContainer div:first-of-type,
+.staticts .myContainer div:nth-of-type(2),
+.staticts .myContainer div:nth-of-type(3)
+{
+margin-right: 65px;
+margin-bottom: 0px
+}
+.staticts
+{
+height: 200px;
+padding-top: 0px
+}
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.staticts .myContainer
+{
+display: flex;
+}
+.staticts div i
+{
+font-size: 80px;
+margin-right: 20px;
+}
+.staticts div h3
+{
+font-size: 40px;
+}
+.staticts div p
+{
+font-size: 20px;
+}   
+.staticts .myContainer div
+{
+display: flex;
+align-items: center;
+text-align: left
+}
+.staticts .myContainer div:first-of-type,
+.staticts .myContainer div:nth-of-type(2),
+.staticts .myContainer div:nth-of-type(3)
+{
+margin-right: 65px;
+margin-bottom: 0px
+} 
+.staticts
+{
+height: 200px;
+padding-top: 0px
+}
+
+}    
+
+.staticts
+{
+background-color: #222931;
+width: 100%;
+}
+.staticts .myContainer
+{
+width: 95%;
+height: 100%;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+.staticts div i
+{
+color: white;
+}
+
+.staticts div h3
+{
+font-weight: bold;
+color: #e10404;
+margin-top: 0px;
+}
+.staticts div p
+{
+color: white;
+font-weight: bold;
+}
+
+/**************************** staticts ******************************/      
+
+/************************ services *****************************/      
+
+/* mobils & tablets */  
+@media (max-width: 767px) {
+
+.services .grid .ser
+{
+width: 100%;
+margin-right: 0%;
+}
+.services h2
+{
+font-size: 28px;   
+}
+.services h1
+{
+font-size: 38px;
+}
+.services .p
+{
+font-size: 15px;
+}
+.services .grid .ser .img
+{
+margin: auto
+}
+.services .grid .ser section
+{
+padding-left: 30px;
+padding-top: 25px; 
+} 
+.services .grid .ser section p
+{
+font-size: 25px;
+line-height: 45px;
+}
+.services .grid .ser section button
+{
+font-size: 20px;
+margin-top: 15px;
+} 
+.services .grid .ser .title
+{
+text-align: center
+} 
+.services .grid .ser .title img
+{
+float: none;
+margin-right: 0px;
+}  
+.services .grid .ser .title h3
+{
+width: 100%;
+}    
+.services .grid .ser .img
+{
+width: 85%;
+}   
+.services .grid .ser
+{
+margin-bottom: 5%    
+}
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.services .grid .ser
+{
+width: 48%;
+margin-right: 2%
+}
+.services .grid .ser2,
+.services .grid .ser4,
+.services .grid .ser6
+{
+margin-right: 0% !important
+}
+.services h2
+{
+font-size: 30px;   
+}
+.services h1
+{
+font-size: 40px;
+}
+.services .p
+{
+font-size: 17px;
+}
+.services .grid .ser .img
+{
+margin: 0px
+}
+.services .grid .ser section
+{
+padding-left: 30px;
+padding-top: 25px; 
+} 
+.services .grid .ser section p
+{
+font-size: 18px;
+line-height: 33px;
+}
+.services .grid .ser section button
+{
+font-size: 16px;
+margin-top: 15px;
+} 
+.services .grid .ser .title
+{
+text-align: left
+}  
+.services .grid .ser .title img
+{
+float: left;
+margin-right: 15px;
+} 
+.services .grid .ser .title h3
+{
+width: 85%;
+}    
+.services .grid .ser .img
+{
+width: 100%;
+} 
+.services .grid .ser
+{
+margin-bottom: 2%    
+}
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.services .grid .ser
+{
+width: 31.333333333333336%;
+margin-right: 2% !important
+}
+.services .grid .ser6,
+.services .grid .ser3
+{
+margin-right: 0% !important
+} 
+.services h2
+{
+font-size: 35px;   
+}
+.services h1
+{
+font-size: 46px;
+}
+.services .p
+{
+font-size: 20px;
+}
+.services .grid .ser .img
+{
+margin: 0px
+}  
+.services .grid .ser .title
+{
+text-align: left
+} 
+.services .grid .ser .title img
+{
+float: left;
+margin-right: 15px;
+} 
+.services .grid .ser .title h3
+{
+width: 85%;
+}  
+.services .grid .ser .img
+{
+width: 100%;
+}  
+.services .grid .ser section
+{
+padding-left: 25px;
+padding-top: 30px; 
+} 
+.services .grid .ser section p
+{
+font-size: 14px;
+line-height: 33px;
+}
+.services .grid .ser section button
+{
+font-size: 16px;
+margin-top: 15px;
+} 
+.services .grid .ser
+{
+margin-bottom: 2%    
+}
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.services .grid .ser
+{
+width: 31.333333333333336%;
+margin-right: 2% !important
+}
+.services .grid .ser6,
+.services .grid .ser3
+{
+margin-right: 0% !important
+}
+.services .grid .ser
+{
+margin-bottom: 2%    
+}
+.services h2
+{
+font-size: 35px;   
+}
+.services h1
+{
+font-size: 46px;
+}
+.services .p
+{
+font-size: 20px;
+}
+.services .grid .ser .img
+{
+margin: 0px
+}
+.services .grid .ser section
+{
+padding-left: 35px;
+padding-top: 45px; 
+}
+.services .grid .ser section p
+{
+font-size: 19px;
+line-height: 33px;
+}
+.services .grid .ser section button
+{
+font-size: 17px;
+margin-top: 15px;
+}
+.services .grid .ser .title
+{
+text-align: left
+}  
+.services .grid .ser .title img
+{
+float: left;
+margin-right: 15px;
+}   
+.services .grid .ser .title h3
+{
+width: 85%;
+}  
+.services .grid .ser .img
+{
+width: 100%;
+} 
+}  
+
+.services
+{
+width: 95%;
+margin: 85px auto 50px;
+}
+.services h2
+{
+font-weight: bold;
+text-align: center;    
+}
+.services h1
+{
+color: #e10404;
+font-weight: bold;
+text-align: center;
+}
+.services .p
+{
+width: 80%;
+font-weight: bold;
+margin: auto;
+text-align: center;
+margin-bottom: 50px
+}
+.services .grid
+{
+width: 100%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.services .grid .ser .img
+{
+position: relative;
+overflow: hidden
+}
+.services .grid .ser .img img
+{
+width: 100%;
+}
+.services .grid .ser section
+{
+position: absolute;
+height: 100%;
+top: 100%;
+background-color: rgba(34, 41, 49, 0.86);
+color: white;
+text-align: left !important
+}
+.services .grid .ser section p
+{
+text-align: left;
+font-weight: bold;
+width: 87%;
+}
+.services .grid .ser section button
+{
+color: #e10404;
+font-weight: bold;
+letter-spacing: 1px;
+word-spacing: 5px;
+background: none;
+border: 0px;
+transition: 1s all;
+padding: 0px;
+transition: 1s all
+}
+.services .grid .ser section button:hover
+{
+color: white
+}
+.services .grid .ser .title
+{
+cursor: pointer;
+margin-top: 25px;
+}
+.services .grid .ser .title img
+{
+width: 15%;  
+}
+.services .grid .ser .title h3
+{
+font-size: 32px;
+font-weight: bold;
+} 
+
+/************************ services ***************************************/    
+
+/***************************** projects ***************************/    
+
+/* mobils & tablets */  
+@media (max-width: 767px) {
+
+.projects .project .img
+{
+width: 100%;
+}
+.projects .project .img section
+{
+padding-top: 35px;
+}
+.projects .project .img section .tag
+{
+font-size: 16px;
+height: 30px;
+line-height: 30px;
+}   
+.projects .project .img section h4
+{
+font-size: 28px;
+}
+.projects .project .img section h5
+{
+font-size: 18px;
+}
+.projects .project .img section button
+{
+font-size: 17px;
+margin-top: 20px
+} 
+
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.projects .project .img
+{
+width: 50%;
+}
+
+.projects .project .img section
+{
+padding-top: 35px;
+}
+.projects .project .img section .tag
+{
+font-size: 16px;
+height: 30px;
+line-height: 30px;
+}   
+.projects .project .img section h4
+{
+font-size: 28px;
+}
+.projects .project .img section h5
+{
+font-size: 18px;
+}
+.projects .project .img section button
+{
+font-size: 17px;
+margin-top: 20px
+}   
+
+
+
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.projects .project .img
+{
+width: 33.33333333333333%;
+}
+.projects .project .img section
+{
+padding-top: 25px;
+}
+.projects .project .img section .tag
+{
+font-size: 16px;
+height: 30px;
+line-height: 30px;
+}   
+.projects .project .img section h4
+{
+font-size: 25px;
+}
+.projects .project .img section h5
+{
+font-size: 15px;
+}
+.projects .project .img section button
+{
+font-size: 15px;
+margin-top: 10px
+}   
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.projects .project .img
+{
+width: 33.33333333333333%;
+}
+.projects .project .img section
+{
+padding-top: 40px;
+}
+.projects .project .img section .tag
+{
+font-size: 18px;
+height: 35px;
+line-height: 35px;
+}  
+.projects .project .img section h4
+{
+font-size: 30px;
+}
+.projects .project .img section h5
+{
+font-size: 20px;
+}
+.projects .project .img section button
+{
+font-size: 18px;
+margin-top: 20px
+}  
+
+}    
+
+
+.projects
+{
+width: 95%;
+margin: auto;
+position: relative;
+}
+.projects h2
+{
+font-size: 35px;
+text-align: center;
+font-weight: bold
+}
+.projects .buttons
+{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+margin-bottom: 30px
+}
+.projects .buttons button
+{
+font-size: 20px;
+font-weight: bold;
+background: none;
+border: 0px;
+margin-right: 35px;
+padding: 0px;
+transition: 1s all;
+outline: 0px
+}
+.projects .buttons button:last-of-type
+{
+margin-right: 0px !important
+}
+.projects .buttons button:hover
+{
+color: #e10404
+}
+.active3
+{
+color: #e10404    
+}
+.projects2
+{
+width: 100%;
+transition: 1s all
+}    
+.projects .project
+{
+width: 100%;
+flex-wrap: wrap;
+display: none;
+justify-content: center;
+} 
+.active2
+{
+display: flex !important;
+}
+.projects .project .img
+{
+position: relative;
+overflow: hidden;
+cursor: pointer
+}
+.projects .project .img img
+{
+width: 100%
+}
+.projects .project .img section
+{
+width: 100%;
+height: 100%;
+background-color: rgba(34, 41, 49, 0.86);
+position: absolute;
+top: 100%;
+padding-left: 40px;
+}
+.projects .project .img section .tag
+{
+color: white;
+background-color: rgb(225, 4, 4);
+display: block;
+width: 90px;
+text-align: center;
+letter-spacing: 1px;
+font-weight: bold;  
+margin-bottom: 20px;
+transition: 1s all
+}
+.projects .project .img section .tag:hover
+{
+color: rgb(225, 4, 4);
+background-color: white;  
+}
+.projects .project .img section h4
+{
+color: white;
+font-weight: bold;
+margin-bottom: 25px
+}
+.projects .project .img section h5
+{
+color: white;
+font-weight: bold;
+}
+.projects .project .img section button
+{
+background: none;
+border: 0px none;
+color: rgb(225, 4, 4);
+font-weight: bold;
+transition: 1s all;
+letter-spacing: 1px;
+padding: 0px;
+}
+.projects .project .img section button:hover
+{
+color: white
+}
+
+
+/***************************** projects ***************************/    
+
+/****************** testimonial **********************/    
+
+/* mobils & tablets */  
+@media (max-width: 767px) {
+
+.testimonial
+{
+height: 480px
+}   
+.testimonial .quotes
+{
+width: 70%;
+}
+.testimonial h2
+{
+font-size: 25px;
+}
+.testimonial .quotes .quote i
+{
+font-size: 28px;
+}
+.testimonial .quotes .quote p
+{
+font-size: 16px;
+}
+.testimonial .quotes .quote h4
+{
+font-size: 17px;    
+}   
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.testimonial
+{
+height: 480px
+}      
+.testimonial .quotes
+{
+width: 80%;
+}
+.testimonial h2
+{
+font-size: 30px;
+}
+.testimonial .quotes .quote i
+{
+font-size: 35px;
+}
+.testimonial .quotes .quote p
+{
+font-size: 18px;
+}
+.testimonial .quotes .quote h4
+{
+font-size: 17px;    
+}
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.testimonial
+{
+height: 520
+}   
+.testimonial .quotes
+{
+width: 80%;
+} 
+.testimonial h2
+{
+font-size: 35px;
+}
+.testimonial .quotes .quote i
+{
+font-size: 40px;
+}
+.testimonial .quotes .quote p
+{
+font-size: 20px;
+}
+.testimonial .quotes .quote h4
+{
+font-size: 20px;    
+}
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.testimonial
+{
+height: 550px
+}    
+.testimonial .quotes
+{
+width: 80%;
+}
+.testimonial h2
+{
+font-size: 35px;
+}
+.testimonial .quotes .quote i
+{
+font-size: 40px;
+}
+.testimonial .quotes .quote p
+{
+font-size: 20px;
+}
+.testimonial .quotes .quote h4
+{
+font-size: 20px;    
+}
+
+}   
+
+.testimonial
+{
+width: 100%;
+background-color: #222931;
+margin-top: 80px;
+padding-top: 3.5%;
+}
+.testimonial h2
+{
+font-weight: bold;
+text-align: center;
+color: white
+}
+.testimonial .quotes
+{
+margin: 50px auto;
+position: relative;
+overflow: hidden;
+height: 78%
+}
+.testimonial .quotes .quote
+{
+text-align: center;
+position: absolute;
+width: 100%;
+background-color: #222931;
+}
+.testimonial .quotes .quote i
+{
+color: rgb(225, 4, 4); 
+margin-bottom: 20px;
+}
+.testimonial .quotes .quote p
+{
+color: white;
+font-weight: bold;
+width: 80%;
+margin: auto auto 35px; 
+}
+.testimonial .quotes .quote img
+{
+width: 8%;
+margin-bottom: 15px;
+}
+.testimonial .quotes .quote h4
+{
+color: rgb(225, 4, 4);
+font-weight: bold;
+}
+.testimonial .quotes .quote h4 span
+{
+color: white;     
+}
+.testimonial .controls
+{
+position: relative;
+top: -71%;
+}
+.testimonial .controls i
+{
+font-size: 25px;
+width: 45px;
+height: 45px;
+line-height: 43px;
+text-align: center;
+color: rgb(225, 4, 4);
+border: 3px solid rgb(225, 4, 4);
+cursor: pointer;
+position: absolute
+}
+.testimonial .controls i:nth-of-type(1)
+{
+left: -100%
+}
+.testimonial .controls i:nth-of-type(2)
+{
+right: -100%
+}
+.testimonial .controls i:hover
+{
+background-color: rgb(225, 4, 4);
+color: white    
+}
+
+/****************** testimonial **********************/    
+
+/******************************* collaborate ****************************/    
+
+/* mobils & tablets */  
+@media (max-width: 767px) {
+
+.collaborate
+{
+height: 830px
+} 
+.collaborate h2
+{
+font-size: 30px;
+}
+.collaborate h1
+{
+font-size: 32px;
+}  
+.collaborate .collaborate2 > div
+{
+width: 75%;
+}
+.collaborate .collaborate2 > div:first-of-type
+{
+margin-right: 0%;
+margin-bottom: 20px
+}
+.collaborate .collaborate2 > div:nth-of-type(2)
+{
+margin-right: 0%;
+margin-bottom: 20px
+}
+.collaborate .collaborate2 > div:nth-of-type(3)
+{
+margin-right: 0%;
+margin-bottom: 20px
+}  
+.collaborate .collaborate2 > div:last-of-type
+{
+margin-right: 0%;
+margin-bottom: 0px
+}
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.collaborate
+{
+height: 585px
+} 
+.collaborate h2
+{
+font-size: 28px;
+}
+.collaborate h1
+{
+font-size: 38px;
+}    
+.collaborate .collaborate2 > div
+{
+width: 48%;
+}
+.collaborate .collaborate2 > div:first-of-type
+{
+margin-right: 2%;
+margin-bottom: 20px
+}
+.collaborate .collaborate2 > div:nth-of-type(2)
+{
+margin-right: 0%;
+margin-bottom: 20px
+}
+.collaborate .collaborate2 > div:nth-of-type(3)
+{
+margin-right: 2%;
+margin-bottom: 0px
+}  
+.collaborate .collaborate2 > div:last-of-type
+{
+margin-right: 0%;
+margin-bottom: 0px
+}
+.collaborate .collaborate2 > div section h3
+{
+
+font-size: 26px;
+}
+.collaborate .collaborate2 > div section h4
+{
+font-size: 18px
+} 
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.collaborate
+{
+height: 465px
+} 
+.collaborate h2
+{
+font-size: 35px;
+}
+.collaborate h1
+{
+font-size: 55px;
+}   
+.collaborate .collaborate2 > div
+{
+width: 23%;
+}
+.collaborate .collaborate2 > div:first-of-type
+{
+margin-right: 2%;
+margin-bottom: 0px
+}
+.collaborate .collaborate2 > div:nth-of-type(2)
+{
+margin-right: 2%;
+margin-bottom: 0px
+}
+.collaborate .collaborate2 > div:nth-of-type(3)
+{
+margin-right: 2%;
+margin-bottom: 0px
+}  
+.collaborate .collaborate2 > div:last-of-type
+{
+margin-right: 0%;
+margin-bottom: 0px
+}
+.collaborate .collaborate2 > div section h3
+{
+
+font-size: 21px;
+}
+.collaborate .collaborate2 > div section h4
+{
+font-size: 14px
+}
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.collaborate
+{
+height: 465px
+} 
+.collaborate h2
+{
+font-size: 35px;
+}
+.collaborate h1
+{
+font-size: 55px;
+}    
+.collaborate .collaborate2 > div
+{
+width: 23%;
+}
+.collaborate .collaborate2 > div:first-of-type
+{
+margin-right: 2%;
+margin-bottom: 0px
+}
+.collaborate .collaborate2 > div:nth-of-type(2)
+{
+margin-right: 2%;
+margin-bottom: 0px
+}
+.collaborate .collaborate2 > div:nth-of-type(3)
+{
+margin-right: 2%;
+margin-bottom: 0px
+}  
+.collaborate .collaborate2 > div:last-of-type
+{
+margin-right: 0%;
+margin-bottom: 0px
+}
+.collaborate .collaborate2 > div section h3
+{
+
+font-size: 26px;
+}
+.collaborate .collaborate2 > div section h4
+{
+font-size: 18px
+}
+
+
+}     
+
+.collaborate
+{
+width: 100%;
+background-image: url(image31.jpg);
+background-size: cover;
+text-align: center;
+margin-top: 80px;
+}
+.collaborate h2
+{
+font-weight: bold;
+}
+.collaborate h1
+{
+width: 57%;
+margin: auto;
+font-weight: bold;
+color: #E10404;
+margin-top: 20px;
+}
+.collaborate .collaborate2
+{
+width: 95%;
+margin: 65px auto;
+display: flex;
+justify-content: center;
+align-items: center;
+perspective: 1000px;
+flex-wrap: wrap;
+}
+.collaborate .collaborate2 > div
+{
+height: 130px;
+position: relative;
+transition: 1s all;
+transform-style: preserve-3d;
+}
+.collaborate .collaborate2 > div:hover
+{
+transform: rotateX(180deg)   
+}
+.collaborate .collaborate2 > div section 
+{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0px;    
+backface-visibility: hidden;
+display: flex;
+justify-content: center;
+align-items: center
+}
+.collaborate .collaborate2 > div .front
+{
+background-color: #fff;
+}
+.collaborate .collaborate2 > div .back
+{
+background-color: #222931;
+z-index: 1;
+transform: rotateX(180deg)  
+}
+.collaborate .collaborate2 > div section img
+{
+width: 20%;
+}
+.collaborate .collaborate2 > div section div
+{
+width: 45%;
+text-align: left;
+padding-left: 10px;
+}
+.collaborate .collaborate2 > div .front div
+{
+color: #222931;    
+}
+.collaborate .collaborate2 > div .back div
+{
+color: #fff;    
+}
+.collaborate .collaborate2 > div section h3
+{
+font-weight: bold;
+width: 100%;
+margin: 0px;
+}
+.collaborate .collaborate2 > div section h4
+{
+font-weight: bold;
+width: 100%;
+margin-top: 10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+/******************************* collaborate ****************************/    
+
+/* mobils & tablets */  
+@media (max-width: 767px) {
+
+.footer > div
+{
+width: 100%;
+margin-right: 0%;
+margin-bottom: 30px
+} 
+.footer > div h3
+{
+font-size: 31px;
+}
+.footer .company h2
+{
+font-size: 31px;
+}
+.footer .company p
+{
+font-size: 18px;
+line-height: 30px;
+}
+.footer .events div
+{
+width: 40%;
+}
+.footer .events div span
+{
+height: 30px;
+line-height: 27px;
+font-size: 15px;
+}
+.footer .events h4
+{
+font-size: 21px;
+}
+.footer .events h5
+{
+font-size: 16px;
+}    
+.footer .information ul li
+{
+font-size: 18px;
+} 
+.footer .contact ul li
+{
+font-size: 20px;
+line-height: 30px;
+} 
+
+
+} 
+
+/* small */
+@media (min-width: 768px) {
+
+.footer > div
+{
+width: 23%;
+margin-right: 2%;
+margin-bottom: 0px
+} 
+.footer > div h3
+{
+font-size: 27px;
+}  
+.footer .company h2
+{
+font-size: 27px;
+}
+.footer .company p
+{
+font-size: 15px;
+line-height: 28px;
+}
+.footer .events div
+{
+width: 100%;
+}
+.footer .events div span
+{
+height: 26px;
+line-height: 25px;
+font-size: 13px;
+}
+.footer .events h4
+{
+font-size: 18px;
+}
+.footer .events h5
+{
+font-size: 14px;
+} 
+.footer .information ul li
+{
+font-size: 16px;
+}   
+.footer .contact ul li
+{
+font-size: 17px;
+line-height: 28px;
+}   
+
+
+} 
+
+/* medium */
+@media (min-width: 992px) {
+
+.footer > div
+{
+width: 23%;
+margin-right: 2%;
+margin-bottom: 0px
+} 
+.footer > div h3
+{
+font-size: 31px;
+}
+.footer .company h2
+{
+font-size: 31px;
+}
+.footer .company p
+{
+font-size: 18px;
+line-height: 30px;
+} 
+.footer .events div
+{
+width: 100%;
+} 
+.footer .events div span
+{
+height: 30px;
+line-height: 27px;
+font-size: 15px;
+}
+.footer .events h4
+{
+font-size: 21px;
+}
+.footer .events h5
+{
+font-size: 16px;
+} 
+.footer .information ul li
+{
+font-size: 18px;
+}    
+.footer .contact ul li
+{
+font-size: 20px;
+line-height: 30px;
+}    
+
+
+} 
+
+/* large */
+@media (min-width: 1200px) { 
+
+.footer > div
+{
+width: 23%;
+margin-right: 2%;
+margin-bottom: 0px
+} 
+.footer > div h3
+{
+font-size: 31px;
+}
+.footer .company h2
+{
+font-size: 31px;
+}
+.footer .company p
+{
+font-size: 18px;
+line-height: 30px;
+}
+.footer .events div
+{
+width: 100%;
+}
+.footer .events div span
+{
+height: 30px;
+line-height: 27px;
+font-size: 15px;
+}
+.footer .events h4
+{
+font-size: 21px;
+}
+.footer .events h5
+{
+font-size: 16px;
+}    
+.footer .information ul li
+{
+font-size: 18px;
+} 
+.footer .contact ul li
+{
+font-size: 20px;
+line-height: 30px;
+}   
+
+}     
+
+
+.footer
+{
+width: 95%;
+margin: 80px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center
+}
+.footer > div:last-of-type
+{
+margin-right: 0px
+}
+.footer > div h3
+{
+font-weight: bold;
+margin-top: 0px;
+}
+.footer .company h2
+{
+font-weight: bold;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+.footer .company h2 span
+{
+color: #E10404
+}
+.footer .company p
+{
+font-weight: bold;
+color: rgba(0, 0, 0, 0.55)
+}
+.footer .events div
+{
+height: 160px;
+background-size: cover;
+background-image: url(footer.jpg);
+padding-top: 15px;
+padding-left: 15px;
+margin-top: 20px;
+margin-bottom: 18px;
+}
+.footer .events div span
+{
+display: inline-block;
+background-color: #E10404;
+color: white;
+font-weight: bold;
+margin-right: 5px;
+padding-left: 15px;
+padding-right: 15px;
+cursor: pointer;
+transition: 1s all
+}
+.footer .events div span:hover
+{
+color: #E10404;
+background-color: white
+}
+.footer .events h4
+{
+font-weight: bold;
+margin-bottom: 15px
+}
+.footer .events h5
+{
+font-weight: bold;
+color: rgba(0, 0, 0, 0.55)
+}   
+.footer .information ul
+{
+list-style: none;
+padding: 0px;
+margin: 0px;
+margin-top: 20px
+}
+.footer .information ul li
+{
+font-weight: bold;
+margin-bottom: 10px;
+cursor: pointer; 
+color: rgba(0, 0, 0, 0.55);
+transition: 1s all
+}
+.footer .information ul li:hover
+{
+color: #E10404;
+}
+.footer .information ul li i
+{
+margin-right: 5px;  
+color: #E10404;
+}
+.footer .contact ul
+{
+list-style: none;
+padding: 0px;
+margin: 0px;
+margin-top: 20px
+}
+.footer .contact ul li
+{
+font-weight: bold;
+margin-bottom: 13px;
+color: rgba(0, 0, 0, 0.55);
+}
+.footer .contact ul li i
+{
+margin-right: 6px;
+color: #E10404;
+} 
+
+.footer2
+{
+width: 100%;
+height: 70px;
+line-height: 70px;
+background-color: #222931;
+text-align: center;
+font-size: 22px;
+font-weight: bold;
+color: white
+}
+
+
+</style>    
+<style type="text/css">
+/************************ services svg icons ***************************************/  
+
+div.image 
+{
+max-width: 256px;
+max-height: 256px;
+background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5NiA0OTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ5NiA0OTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Zz4KCTxnPgoJCTxnPgoJCQk8cGF0aCBkPSJNMzIwLDI5NS45NjZjLTI2LjUxLDAtNDgsMjEuNDktNDgsNDhjMCwyNi41MSwyMS40OSw0OCw0OCw0OGMyNi41MSwwLDQ4LTIxLjQ5LDQ4LTQ4ICAgICBDMzY3Ljk3NCwzMTcuNDY3LDM0Ni40OTksMjk1Ljk5MiwzMjAsMjk1Ljk2NnogTTMyMCwzNzUuOTY2Yy0xNy42NzMsMC0zMi0xNC4zMjctMzItMzJjMC0xNy42NzMsMTQuMzI3LTMyLDMyLTMyICAgICBjMTcuNjczLDAsMzIsMTQuMzI3LDMyLDMyQzM1MiwzNjEuNjM5LDMzNy42NzMsMzc1Ljk2NiwzMjAsMzc1Ljk2NnoiIGZpbGw9IiNEODAwMjciLz4KCQkJPHJlY3QgeD0iMTkyIiB5PSIyNjMuOTY2IiB3aWR0aD0iMzIiIGhlaWdodD0iMTYiIGZpbGw9IiNEODAwMjciLz4KCQkJPHJlY3QgeD0iMTkyIiB5PSIyOTUuOTY2IiB3aWR0aD0iMzIiIGhlaWdodD0iMTYiIGZpbGw9IiNEODAwMjciLz4KCQkJPHJlY3QgeD0iMTY4IiB5PSIzNjcuOTY2IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNEODAwMjciLz4KCQkJPHBhdGggZD0iTTQ4OCwxNTEuOTY2aC0zMmMtNC40MTgsMC04LDMuNTgyLTgsOHY4aC00MC45MzZMNDAwLDExMS40N1Y3OS45NjZjMC00LjQxOC0zLjU4Mi04LTgtOEgyNDhjLTQuNDE4LDAtOCwzLjU4Mi04LDggICAgIHYzMS41MDRsLTE1LjA2NCwxMjAuNDk2SDIwOHYtNjRjMC0xNy42NzMtMTQuMzI3LTMyLTMyLTMydjE2YzguODM3LDAsMTYsNy4xNjMsMTYsMTZ2NjRIOTQuNTI4ICAgICBDOTAuMTQ0LDIxOS40OSw3Ni40NzYsMjEyLjkzLDY0LDIxNy4zMTRjLTEyLjQ3Niw0LjM4NC0xOS4wMzYsMTguMDUyLTE0LjY1MiwzMC41MjhjMi40MDgsNi44NTQsNy43OTgsMTIuMjQzLDE0LjY1MiwxNC42NTIgICAgIHY0Ni4xNkwzNy42NTYsMjgyLjMxYy0xLjUtMS41LTMuNTM0LTIuMzQ0LTUuNjU2LTIuMzQ0SDB2MTZoMTZ2MTEySDB2MTZoNTZjMi4xMjIsMCw0LjE1Ni0wLjg0NCw1LjY1Ni0yLjM0NGwxNi0xNiAgICAgYzEuNS0xLjUsMi4zNDQtMy41MzQsMi4zNDQtNS42NTZ2LTEyLjY4OGw3NS4zMTItNzUuMzEySDE2MHYxOC44Yy0yNC45OTQsOC44MzctMzguMDkxLDM2LjI2MS0yOS4yNTUsNjEuMjU1ICAgICBjOC44MzcsMjQuOTk0LDM2LjI2MSwzOC4wOTEsNjEuMjU1LDI5LjI1NWMxOS4xOTctNi43ODcsMzIuMDIzLTI0Ljk0OCwzMi00NS4zMWgyMi43MjggICAgIGMxNy42NzMsNDAuNDY3LDY0LjgwNSw1OC45NDUsMTA1LjI3Miw0MS4yNzJjNDAuNDY3LTE3LjY3Myw1OC45NDUtNjQuODA1LDQxLjI3Mi0xMDUuMjcySDQwOGM0LjQxOCwwLDgtMy41ODIsOC04di01NmgxNnY1NiAgICAgYzAsMi4xMjIsMC44NDQsNC4xNTYsMi4zNDQsNS42NTZsMjYuMzQ0LDI2LjM0NGwtNzQuMzQ0LDc0LjM0NGMtMy4xMjQsMy4xMjUtMy4xMjMsOC4xOSwwLjAwMiwxMS4zMTQgICAgIGMxLjUsMS40OTksMy41MzQsMi4zNDIsNS42NTQsMi4zNDJoNjRjMi4xMjIsMCw0LjE1Ni0wLjg0NCw1LjY1Ni0yLjM0NGwzMi0zMmMxLjUtMS41LDIuMzQ0LTMuNTM0LDIuMzQ0LTUuNjU2di0yMjQgICAgIEM0OTYsMTU1LjU0OCw0OTIuNDE4LDE1MS45NjYsNDg4LDE1MS45NjZ6IE02NCwzOTYuNjU0bC0xMS4zMTIsMTEuMzEySDMyVjI5OS4yNzhsMzIsMzJWMzk2LjY1NHogTTM5NC45MzYsMTk5Ljk2NkgzNDR2LTgwICAgICBoNDAuOTM2TDM5NC45MzYsMTk5Ljk2NnogTTI1Niw4Ny45NjZoMTI4djE2SDI1NlY4Ny45NjZ6IE0zMjgsMTE5Ljk2NnY4MGgtMTZ2LTgwSDMyOHogTTI1NS4wNjQsMTE5Ljk2NkgyOTZ2ODBoLTUwLjkzNiAgICAgTDI1NS4wNjQsMTE5Ljk2NnogTTI0My4wNjQsMjE1Ljk2NmgxNTMuODcybDIsMTZIMjQxLjA2NEwyNDMuMDY0LDIxNS45NjZ6IE05NC41MjgsMjQ3Ljk2Nmg2OS45MiAgICAgYy0yLjg3OSw0Ljg0My00LjQxNSwxMC4zNjYtNC40NDgsMTZoLTI0Yy0yLjEyMiwwLTQuMTU2LDAuODQ0LTUuNjU2LDIuMzQ0TDgwLDMxNi42NTR2LTU0LjE2ICAgICBDODYuNzc1LDI2MC4wNzQsOTIuMTA4LDI1NC43NDIsOTQuNTI4LDI0Ny45NjZ6IE03MiwyNDcuOTY2Yy00LjQxOCwwLTgtMy41ODItOC04czMuNTgyLTgsOC04czgsMy41ODIsOCw4ICAgICBTNzYuNDE4LDI0Ny45NjYsNzIsMjQ3Ljk2NnogTTE1MiwyOTUuOTY2Yy0yLjEyMiwwLTQuMTU2LDAuODQ0LTUuNjU2LDIuMzQ0TDgwLDM2NC42NTR2LTI1LjM3Nmw1OS4zMTItNTkuMzEySDE2MHYxNkgxNTJ6ICAgICAgTTE3Niw0MDcuOTY2Yy0xNy42NzMsMC0zMi0xNC4zMjctMzItMzJjMC0xNy42NzMsMTQuMzI3LTMyLDMyLTMyczMyLDE0LjMyNywzMiwzMkMyMDgsMzkzLjYzOSwxOTMuNjczLDQwNy45NjYsMTc2LDQwNy45NjZ6ICAgICAgTTMyMCw0MDcuOTY2Yy0zNS4zNDYsMC02NC0yOC42NTQtNjQtNjRjMC0zNS4zNDYsMjguNjU0LTY0LDY0LTY0YzM1LjM0NiwwLDY0LDI4LjY1NCw2NCw2NCAgICAgQzM4My45NiwzNzkuMjk2LDM1NS4zMyw0MDcuOTI2LDMyMCw0MDcuOTY2eiBNNDAwLDI5NS45NjZoLTE2LjE1MmMtMjYuNS0zNS4zMDktNzYuNjA2LTQyLjQ1MS0xMTEuOTE2LTE1Ljk1MSAgICAgYy0yNC43MTQsMTguNTQ4LTM2LjUyNCw0OS42NzgtMzAuMzMyLDc5Ljk1MWgtMjAuNGMtNi43NzQtMTkuMTU5LTI0Ljg3OS0zMS45NzctNDUuMi0zMnYtNjRjMC04LjgzNyw3LjE2My0xNiwxNi0xNmgyMDhWMjk1Ljk2NiAgICAgeiBNNDMyLDIzMS45NjZoLTE2Ljk1MmwtMi0xNkg0MzJWMjMxLjk2NnogTTQxMS4wNjQsMTk5Ljk2NmwtMi0xNkg0NDh2MTZINDExLjA2NHogTTQ4MCwzODAuNjU0bC0yNy4zMTIsMjcuMzEyaC00MS4zNzYgICAgIEw0NzIsMzQ3LjI3OGw4LDhWMzgwLjY1NHogTTQ4MCwzMzIuNjU0bC0zMi0zMnYtNC42ODhoMzJWMzMyLjY1NHogTTQ4MCwyNzkuOTY2aC0zMnYtMTZoMzJWMjc5Ljk2NnogTTQ4MCwyNDcuOTY2aC0zMnYtMzJoMzIgICAgIFYyNDcuOTY2eiBNNDgwLDE5OS45NjZoLTE2di0zMmgxNlYxOTkuOTY2eiIgZmlsbD0iI0Q4MDAyNyIvPgoJCTwvZz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K)
+}
+
+/************************ services svg icons ***************************************/  
+</style> 
+</head>
+<body id='body'>
+
+
+<!------ Header ------>    
+<div class="header">
+
+<div class="slide1 slide active">
+
+<div class="content">    
+
+<h1> We're ready to bring <br>projects to life</h1>    
+
+<h2>High Quality Garantied</h2> 
+
+<button>OUR SERVICES</button>
+
+<button>ABOUT US</button>    
+
+</div>    
+
+</div>  
+
+<div class="slide2 slide">
+
+<div class="content">    
+
+<h1>Constructing<br> is our life business</h1>    
+
+<h2>High Quality Garantied</h2> 
+
+<button>OUR SERVICES</button>
+
+<button>ABOUT US</button>    
+
+</div>    
+
+</div>       
+
+<div class="controls">
+<i class="fa fa-chevron-left"></i>   
+<i class="fa fa-chevron-right"></i>   
+</div>    
+
+</div>
+<!------ Header ------>           
+
+<!-------- Head -------->    
+<div class="head">
+
+<h1>We Are Constico</h1>
+
+<p>We have been transforming the ideas and visions into award-winning projects.</p> 
+
+<button>REQUEST A QUOTE</button>    
+
+</div>    
+<!-------- Head -------->      
+
+<!--------- Head 2 --------->    
+<div class="head2">
+
+<div class="part1" style="margin-right: 2%">
+
+<img src="head1.jpg">
+
+<h2>CONSTRUCTION</h2> 
+
+<p>We specialize in all kinds of construction<br> 
+works. Our certified team provides the services in time<br>
+and on the highest level.</p>    
+
+<button>LEARN MORE</button>    
+
+</div>    
+
+<div class="part2" style="margin-right: 2%">
+
+<img src="head2.jpg">
+
+<h2>ABOUT US</h2> 
+
+<p>We specialize in all kinds of construction<br> 
+works. Our certified team provides the services in time<br>
+and on the highest level.</p>    
+
+<button>LEARN MORE</button>     
+
+</div>    
+
+<div class="part3" style="margin-right: 0%">
+
+<img src="head3.jpg">
+
+<h2>EFFECTIVE TEAMWORK</h2> 
+
+<p>We specialize in all kinds of construction<br> 
+works. Our certified team provides the services in time<br>
+and on the highest level.</p>    
+
+<button>LEARN MORE</button>    
+
+</div>    
+
+</div>   
+<!--------- Head 2 --------->     
+
+<!-------- about ------->    
+<div class="about">
+
+<div class="aboutus">
+
+<h2>ABOUT US</h2>    
+
+<h1>BuiltWall Construction More Than 30 Years on Building Market</h1> 
+
+<p>Constico is a diversified construction company, made up of teams of people who are proven in their industries. All working to design, build, transport, operate, and maintain projects all over the USA. But we believe that projects are about more than concrete and steel.</p>        
+<div class="one" style="margin-top:35px">
+
+<i class="fa fa-bolt"></i>
+
+<h3>We believe in trust in the places where we do business.</h3> 
+
+<p>Whether that’s by engaging honestly, by giving back, by putting safety first, or by looking for smarter, more sustainable ways to get the job done right.</p>    
+
+</div>    
+
+<div class="two">
+
+<i class="fa fa-bolt"></i>
+
+<h3>We take pride in providing a quality product on time.</h3> 
+
+<p>We endeavor to place a signature on all our projects by consistently meeting the requirements of the specifications and by delivering sustainable projects.</p>    
+
+</div>   
+
+</div>
+
+<div class="questions">
+<ul>
+
+<li class="title title1">OUR COMPANY MISSION</li>  
+<li class="info info1" style="display:block">
+We endeavor to place a Constico signature on all our projects by consistently meeting the requirements of the specifications and by delivering sustainable projects that are a superior value to the owner. We take pride in providing a signature on all our projects by consistently quality product on time.    
+</li>    
+
+<li class="title title2">CREATIVE AND POWERFUL</li>   
+<li class="info info2"> We take pride in providing a quality product on time. We endeavor to place a Constico signature on all our projects by consistently meeting the requirements of the specifications and by delivering sustainable signature on all our projects by consistently projects that are a superior value to the owner.</li>    
+
+<li class="title title3">HONEST AND DEPENDABLE</li>
+<li class="info info3">We endeavor to place a Constico signature on all our projects by consistently meeting the requirements of the specifications and by delivering sustainable projects that are a superior value to signature on all our projects by consistently the owner.</li>    
+
+
+</ul>     
+</div>    
+
+</div>  
+<!-------- about ------->    
+
+<!----- staticts ------------>    
+<div class="staticts">
+
+<div class="myContainer">   
+
+<div class="stat1">
+
+<i class="fa fa-briefcase"></i>  
+
+<section>    
+
+<h3 id="projects">0</h3> 
+
+<p>PROJECTS</p>
+
+</section>    
+
+</div>
+
+<div class="stat2">
+
+<i class="fa fa-users" ></i>    
+
+<section>     
+
+<h3 id="clients">0</h3>
+
+<p>HAPPY CLIENTS</p>   
+
+</section>    
+
+</div>
+
+<div class="stat3">
+
+<i class="fa fa-trophy"></i>       
+
+<section>     
+
+<h3 id="staff">0</h3>    
+
+<p>QUALIFIED STAFF</p>  
+
+</section>    
+
+</div>
+
+<div class="stat4">
+
+<i class="fa fa-car"></i>    
+
+<section>     
+
+<h3 id="drivers">0</h3>    
+
+<p>MACHINERIES</p> 
+
+</section>    
+
+</div>
+
+</div>     
+
+</div>    
+<!----- staticts ------------>     
+
+<!---------- services ------------>    
+<div class="services">
+
+<h2>WHAT WE DO ?</h2>
+<h1>Exclusive Service</h1>    
+<p class="p">We provide all kinds of construction and building services and we are always glad to resolve nonstandard and unique tasks. We always take challenges and bring them to a conclusion.</p>    
+
+<div class="grid">
+
+<div class="ser1 ser">    
+
+<div class="img">
+
+<img src="service1.jpg">  
+
+<section class="details">
+<p>You will have a meeting with one of our consultants and discuss all the details regarding your future project. He will answer all your questions you the future steps.</p>             
+<button>LEARN MORE</button>    
+</section>
+
+</div>    
+
+<div class="title">
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzU2LDQyOWMtNS41MiwwLTEwLDQuNDgtMTAsMTBjMCw1LjUyLDQuNDgsMTAsMTAsMTBjNS41MiwwLDEwLTQuNDgsMTAtMTBDMzY2LDQzMy40OCwzNjEuNTIsNDI5LDM1Niw0Mjl6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMTU2LDQyOWMtNS41MiwwLTEwLDQuNDgtMTAsMTBjMCw1LjUyLDQuNDgsMTAsMTAsMTBzMTAtNC40OCwxMC0xMEMxNjYsNDMzLjQ4LDE2MS41Miw0MjksMTU2LDQyOXoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00NDcuNjQ1LDM3Ny4yMWMtMTEuMjU3LTE3LjQyNC0yNi43MjYtMzEuMjY5LTQ0Ljg0Ny00MC4yMWMtMS41MjgtMS40MTktMy40OTMtMi4zNy01LjY3OC0yLjYxMyAgICBDMzg0LjAxMywzMjguODIzLDM3MC4xOTcsMzI2LDM1NiwzMjZoLTMwdi0yNi4zODNjMTcuMzYxLTE0Ljg5NiwyOS44NDItMzQuNjI2LDM1Ljg5NC01Ni42MTdIMzY2YzIyLjA1NiwwLDQwLTE3Ljk0NCw0MC00MCAgICBjMC0xMC40NTItNC4wMzQtMTkuOTc2LTEwLjYyMi0yNy4xMWMwLjYyOS0wLjUzNCwxLjI0My0xLjA5LDEuODMzLTEuNjc5QzQwMi44NzksMTY4LjU0Myw0MDYsMTYxLjAxLDQwNiwxNTMgICAgYzAtMTMuMTYzLTguNTI2LTI0LjM2Ni0yMC4zNDMtMjguMzk2Yy0zLjUzMy00NS45ODQtMzUuODA2LTg1LjI4LTgwLjI0MS05Ny41OTZDMzAyLjc4MywxMy4yNTYsMjkxLjQzNCwwLDI3NiwwaC00MCAgICBjLTE1LjQzNCwwLTI2Ljc4MywxMy4yNTYtMjkuNDE2LDI3LjAwOGMtNDQuNDMxLDEyLjMxNS03Ni43MDEsNTEuNjA0LTgwLjI0LDk3LjU4MmMtNC4zMDIsMS40NTktOC4yNDcsMy44OTItMTEuNTU1LDcuMTk5ICAgIEMxMDkuMTIxLDEzNy40NTcsMTA2LDE0NC45OSwxMDYsMTUzYzAsOS4xNjMsNC4xMzQsMTcuMzc1LDEwLjYzLDIyLjg4MkMxMTAuMDM4LDE4My4wMTYsMTA2LDE5Mi41NDQsMTA2LDIwMyAgICBjMCwyMi4wNTYsMTcuOTQ0LDQwLDQwLDQwaDQuMDc4YzUuMDUyLDE4LjM1NywxNC42MzEsMzUuMjEsMjcuOTk0LDQ5LjEzMWMyLjUxMSwyLjYxOCw1LjE3Myw1LjExMiw3LjkyOCw3LjQ3OFYzMjZoLTMwICAgIGMtMTQuMTk4LDAtMjguMDE0LDIuODIzLTQxLjEyLDguMzg2Yy0yLjE4NCwwLjI0NC00LjE1LDEuMTk0LTUuNjc3LDIuNjEzYy0xOC4xMjMsOC45NDItMzMuNTkxLDIyLjc4Ny00NC44NDgsNDAuMjEgICAgQzUyLjM0NywzOTUuNzk2LDQ2LDQxNy4xNjMsNDYsNDM5djYzYzAsNS41MjIsNC40NzcsMTAsMTAsMTBoNDAwYzUuNTIzLDAsMTAtNC40NzgsMTAtMTB2LTYzICAgIEM0NjYsNDE3LjE2Myw0NTkuNjUzLDM5NS43OTYsNDQ3LjY0NSwzNzcuMjF6IE0xMDYsNDkySDY2di01M2MwLTMwLjQxNywxNS41ODItNTkuNTcxLDQwLTc2Ljg3OFY0OTJ6IE0zNjYsMjIzaC0wLjQ1NiAgICBjMC4yOTgtMy4zMjcsMC40NTYtNi42NjYsMC40NTYtMTB2LTMwYzExLjAyOCwwLDIwLDguOTcyLDIwLDIwUzM3Ny4wMjgsMjIzLDM2NiwyMjN6IE0yMDYsNDguMTM5VjkzYzAsNS41MjMsNC40NzcsMTAsMTAsMTAgICAgczEwLTQuNDc3LDEwLTEwVjM1LjA2M2MwLTAuMDI2LDAtMC4wNTIsMC0wLjA3OFYzM2MwLTYuMTk2LDUuMjM0LTEzLDEwLTEzaDQwYzQuNzY2LDAsMTAsNi44MDQsMTAsMTN2MS45ODUgICAgYzAsMC4wMjYsMCwwLjA1MiwwLDAuMDc4VjkzYzAsNS41MjMsNC40NzcsMTAsMTAsMTBzMTAtNC40NzcsMTAtMTBWNDguMTM5YzMyLjI5LDExLjQyNyw1NS42LDQwLjY0Nyw1OS40NDEsNzQuODYxSDE0Ni41NTkgICAgQzE1MC40LDg4Ljc4NiwxNzMuNzEsNTkuNTY2LDIwNiw0OC4xMzl6IE0xNDYsMjIzYy0xMS4wMjgsMC0yMC04Ljk3Mi0yMC0yMHM4Ljk3Mi0yMCwyMC0yMHYzMGMwLDMuMzM0LDAuMTU4LDYuNjc0LDAuNDU2LDEwSDE0NnogICAgIE0xNDYsMTYzaC0xMGMtNS41MTQsMC0xMC00LjQ4Ni0xMC0xMGMwLTIuNjY4LDEuMDQxLTUuMTc5LDIuOTMxLTcuMDY4YzEuODkxLTEuODkxLDQuNDAxLTIuOTMyLDcuMDY5LTIuOTMyaDI0MCAgICBjNS41MTQsMCwxMCw0LjQ4NiwxMCwxMGMwLDIuNjY4LTEuMDQxLDUuMTc5LTIuOTMxLDcuMDY4Yy0xLjg5LDEuODkxLTQuNDAxLDIuOTMyLTcuMDY5LDIuOTMyaC0xMGgtMTBIMTU2SDE0NnogTTE2Ny44MTcsMjMxLjE4MyAgICBjLTAuMDItMC4xMDktMC4wMzktMC4yMTctMC4wNjMtMC4zMjRDMTY2LjU5MywyMjQuOTksMTY2LDIxOC45ODMsMTY2LDIxM3YtMzBoMTgwdjMwYzAsNS45NzgtMC41OTMsMTEuOTgxLTEuNzU0LDE3Ljg1NSAgICBjLTAuMDI0LDAuMTA4LTAuMDQzLDAuMjE3LTAuMDYzLDAuMzI2Yy00LjQ2OSwyMi4zMDctMTYuODM3LDQyLjI3NS0zNC44NDcsNTYuMjQxQzI5My42OSwyOTkuNTc2LDI3NS4yNDcsMzA2LDI1NiwzMDYgICAgcy0zNy42OS02LjQyNC01My4zNTEtMTguNTg5Yy0zLjU4NS0yLjc3NC02Ljk5Ny01Ljg0My0xMC4xNDUtOS4xMjZDMTc5Ljg4OSwyNjUuMTQzLDE3MS4zNTcsMjQ4Ljg2MiwxNjcuODE3LDIzMS4xODN6IE0yNDYsNDkyICAgIGgtODB2LTIzYzAtNS41MjMtNC40NzctMTAtMTAtMTBzLTEwLDQuNDc3LTEwLDEwdjIzaC0yMFYzNTEuNDc0YzYuNDktMi40NDcsMTMuMTc2LTQuMDc4LDIwLTQuODgyVjQwOWMwLDUuNTIzLDQuNDc3LDEwLDEwLDEwICAgIHMxMC00LjQ3NywxMC0xMHYtNjNoMjUuNzE1TDI0Niw0MDNWNDkyeiBNMjA2LDMzMnYtMTguNjI2QzIyMS40MzEsMzIxLjY2OSwyMzguNDI3LDMyNiwyNTYsMzI2YzE3LjU3NCwwLDM0LjU3MS00LjMzMiw1MC0xMi42MjUgICAgVjMzMmwtNTAsNTIuNUwyMDYsMzMyeiBNMzg2LDQ5MmgtMjB2LTIzYzAtNS41MjMtNC40NzctMTAtMTAtMTBzLTEwLDQuNDc3LTEwLDEwdjIzaC04MHYtODlsNTQuMjg1LTU3SDM0NnY2MyAgICBjMCw1LjUyMyw0LjQ3NywxMCwxMCwxMHMxMC00LjQ3NywxMC0xMHYtNjIuNDA4YzYuODI0LDAuODA0LDEzLjUwOSwyLjQzNiwyMCw0Ljg4M1Y0OTJ6IE00NDYsNDkyaC00MFYzNjIuMTIxICAgIGMyNC40MTgsMTcuMzA3LDQwLDQ2LjQ2MSw0MCw3Ni44NzlWNDkyeiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+<h3>CONSTRUCTION</h3>   
+
+</div>    
+
+</div>   
+
+<div class="ser2 ser">
+
+<div class="img">
+
+<img src="service2.png">    
+<section class="details">
+<p>Whatever you need to reconstruct in your house, our experts will develop a plan with the best options and do all the project and to do reconstruction itself.</p>    
+<button>LEARN MORE</button>    
+</section> 
+
+</div>
+
+<div class="title">    
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQ4OC43MjcsMzI1LjgxOGgtNjkuODE4VjI1NmMwLTEyLjg1My0xMC40Mi0yMy4yNzMtMjMuMjczLTIzLjI3M2gtNjkuODE4di00Ni41NDVoNjkuODE4ICAgIGMxMi44NTMsMCwyMy4yNzMtMTAuNDIsMjMuMjczLTIzLjI3M1Y2OS44MThjMC0xMi44NTMtMTAuNDItMjMuMjczLTIzLjI3My0yMy4yNzNIMjA5LjQ1NUgyMy4yNzNDMTAuNDIsNDYuNTQ1LDAsNTYuOTY1LDAsNjkuODE4ICAgIHY5My4wOTFWMjU2djkzLjA5MXY5My4wOTFjMCwxMi44NTMsMTAuNDIsMjMuMjczLDIzLjI3MywyMy4yNzNoOTMuMDkxaDE4Ni4xODJoMTg2LjE4MmMxMi44NTMsMCwyMy4yNzMtMTAuNDIsMjMuMjczLTIzLjI3MyAgICB2LTkzLjA5MUM1MTIsMzM2LjIzOCw1MDEuNTgsMzI1LjgxOCw0ODguNzI3LDMyNS44MTh6IE0yMzIuNzI3LDkzLjA5MWgxMzkuNjM2djQ2LjU0NWgtNjkuODE4aC02OS44MThWOTMuMDkxeiBNMjc5LjI3MywxODYuMTgyICAgIHY0Ni41NDVoLTY5LjgxOGgtNjkuODE4di00Ni41NDVoNjkuODE4SDI3OS4yNzN6IE00Ni41NDUsOTMuMDkxaDEzOS42MzZ2NDYuNTQ1aC02OS44MThINDYuNTQ1VjkzLjA5MXogTTQ2LjU0NSwxODYuMTgyaDQ2LjU0NSAgICB2NDYuNTQ1SDQ2LjU0NVYxODYuMTgyeiBNOTMuMDkxLDQxOC45MDlINDYuNTQ1di00Ni41NDVoNDYuNTQ1VjQxOC45MDl6IE00Ni41NDUsMzI1LjgxOHYtNDYuNTQ1aDY5LjgxOGg2OS44MTh2NDYuNTQ1aC02OS44MTggICAgSDQ2LjU0NXogTTI3OS4yNzMsNDE4LjkwOUgxMzkuNjM2di00Ni41NDVoNjkuODE4aDY5LjgxOFY0MTguOTA5eiBNMjMyLjcyNywzMjUuODE4di00Ni41NDVoNjkuODE4aDY5LjgxOHY0Ni41NDVoLTY5LjgxOCAgICBIMjMyLjcyN3ogTTQ2NS40NTUsNDE4LjkwOUgzMjUuODE4di00Ni41NDVoNjkuODE4aDY5LjgxOFY0MTguOTA5eiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />   
+<h3>HOUSE RENOVATION</h3>   
+
+</div>    
+
+</div>    
+
+<div class="ser3 ser">
+
+<div class="img">
+
+<img src="service3.png">    
+<section class="details">
+<p>Our team will project ation ojects from start to finish, soyo something far more your weekends instead! You will have no worries while we are working on your project.</p>    
+<button>LEARN MORE</button>    
+</section> 
+
+</div> 
+
+<div class="title">    
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDM2OCAzNjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM2OCAzNjg7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjQ4LDBIMTIwYy0xMy4yMzIsMC0yNCwxMC43NjgtMjQsMjR2MTI4YzAsMTMuMjMyLDEwLjc2OCwyNCwyNCwyNGgyNHY0MGMwLDQuNDI0LDMuNTg0LDgsOCw4aDI0djQwYzAsNC40MjQsMy41ODQsOCw4LDggICAgYzIyLjA1NiwwLDQwLDE3Ljk0NCw0MCw0MGMwLDIyLjA1Ni0xNy45NDQsNDAtNDAsNDBjLTIyLjA1NiwwLTQwLTE3Ljk0NC00MC00MGMwLTQuNDI0LTMuNTg0LTgtOC04cy04LDMuNTc2LTgsOCAgICBjMCwzMC44NzIsMjUuMTIsNTYsNTYsNTZzNTYtMjUuMTI4LDU2LTU2YzAtMjguMTY4LTIwLjg5Ni01MS41MzYtNDgtNTUuNDMyVjIyNGgyNGM0LjQxNiwwLDgtMy41NzYsOC04di00MGgyNCAgICBjMTMuMjMyLDAsMjQtMTAuNzY4LDI0LTI0VjI0QzI3MiwxMC43NjgsMjYxLjIzMiwwLDI0OCwweiBNMjA4LDIwOGgtNDh2LTMyaDQ4VjIwOHogTTI1NiwxNTJjMCw0LjQwOC0zLjU5Miw4LTgsOGgtMjR2LTU2ICAgIGMwLTQuNDE2LTMuNTg0LTgtOC04Yy00LjQxNiwwLTgsMy41ODQtOCw4djU2aC04OGMtNC40MDgsMC04LTMuNTkyLTgtOFYyNGMwLTQuNDA4LDMuNTg0LTgsOC04aDg4djQwYzAsNC40MTYsMy41ODQsOCw4LDggICAgYzQuNDE2LDAsOC0zLjU4NCw4LThWMTZoMjRjNC40MDgsMCw4LDMuNTkyLDgsOFYxNTJ6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />  
+<h3>ARCHITECTURE & BUILDING</h3>   
+
+</div>     
+
+</div>    
+
+<div class="ser4 ser">
+
+<div class="img">
+
+<img src="service4.png">    
+<section class="details">
+<p>Any of your fresh ideas can be implemented in your house by our super-professional interior designers. They create space for you to live comfortably.</p>    
+<button>LEARN MORE</button>    
+</section>
+
+</div>
+
+<div class="title">    
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMi4wMDEgNTEyLjAwMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyLjAwMSA1MTIuMDAxOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM3NS4wNjksMTQxLjkzMWMtMS44NTktMS44Ni00LjQzOS0yLjkzLTcuMDY5LTIuOTNzLTUuMjEsMS4wNy03LjA3LDIuOTNjLTEuODYsMS44Ni0yLjkzLDQuNDMtMi45Myw3LjA3ICAgIGMwLDIuNjMsMS4wNjksNS4yMSwyLjkzLDcuMDdjMS44NjEsMS44Niw0LjQ0LDIuOTMsNy4wNywyLjkzczUuMjEtMS4wNyw3LjA2OS0yLjkzYzEuODYtMS44NiwyLjkzMS00LjQ0LDIuOTMxLTcuMDcgICAgUzM3Ni45MywxNDMuNzkxLDM3NS4wNjksMTQxLjkzMXoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0xNTAsMjgyLjAwMUg3MGMtNS41MjIsMC0xMCw0LjQ3Ny0xMCwxMHY4MGMwLDUuNTIzLDQuNDc4LDEwLDEwLDEwaDgwYzUuNTIyLDAsMTAtNC40NzcsMTAtMTB2LTgwICAgIEMxNjAsMjg2LjQ3OCwxNTUuNTIzLDI4Mi4wMDEsMTUwLDI4Mi4wMDF6IE0xNDAsMzYyLjAwMUg4MHYtNjBoNjBWMzYyLjAwMXoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik01MDUuODI3LDIwOS43NjJjLTMuNzM3LTEuNTQ5LTguMDM5LTAuNjkxLTEwLjg5OCwyLjE2N0wzOTMuMDMxLDMxMy44MjdjLTAuMDAxLDAuMDAyLTAuMDAzLDAuMDAzLTAuMDA1LDAuMDA1ICAgIHMtMC4wMDMsMC4wMDMtMC4wMDQsMC4wMDVMMjc0LjIzOCw0MzIuNjIxYy0wLjAwMiwwLjAwMi0wLjAwMywwLjAwMy0wLjAwNSwwLjAwNXMtMC4wMDMsMC4wMDMtMC4wMDUsMC4wMDVsLTYyLjI5OSw2Mi4yOTkgICAgYy0yLjg1OSwyLjg2LTMuNzE1LDcuMTYyLTIuMTY4LDEwLjg5OGMxLjU0OCwzLjczNyw1LjE5NCw2LjE3Myw5LjIzOSw2LjE3M2gyODNjNS41MjIsMCwxMC00LjQ3NywxMC0xMHYtMjgzICAgIEM1MTIsMjE0Ljk1Nyw1MDkuNTY0LDIxMS4zMSw1MDUuODI3LDIwOS43NjJ6IE00OTIsNDkyLjAwMUgyNDMuMTQzbDM4LjE2MS0zOC4xNjFsOS41NDYsOS41NDYgICAgYzEuOTUzLDEuOTUzLDQuNTEyLDIuOTI5LDcuMDcxLDIuOTI5czUuMTE4LTAuOTc2LDcuMDcxLTIuOTI5YzMuOTA1LTMuOTA1LDMuOTA1LTEwLjIzNywwLTE0LjE0M2wtOS41NDYtOS41NDZsMjUuNDU2LTI1LjQ1NiAgICBsOS41NDUsOS41NDVjMS45NTMsMS45NTMsNC41MTIsMi45MjksNy4wNzEsMi45MjlzNS4xMTgtMC45NzcsNy4wNzEtMi45MjljMy45MDUtMy45MDUsMy45MDUtMTAuMjM3LDAtMTQuMTQybC05LjU0Ni05LjU0NiAgICBsMjUuNDU2LTI1LjQ1Nmw5LjU0Niw5LjU0NmMxLjk1MywxLjk1Myw0LjUxMiwyLjkyOSw3LjA3MSwyLjkyOXM1LjExOC0wLjk3Niw3LjA3MS0yLjkyOWMzLjkwNS0zLjkwNSwzLjkwNS0xMC4yMzcsMC0xNC4xNDMgICAgbC05LjU0Ni05LjU0NmwyNS40NTUtMjUuNDU1bDkuNTQ2LDkuNTQ2YzEuOTUzLDEuOTUzLDQuNTEyLDIuOTI5LDcuMDcxLDIuOTI5czUuMTE4LTAuOTc2LDcuMDcxLTIuOTI5ICAgIGMzLjkwNS0zLjkwNSwzLjkwNS0xMC4yMzcsMC0xNC4xNDNsLTkuNTQ2LTkuNTQ2bDI1LjQ1Ni0yNS40NTZsOS41NDUsOS41NDVjMS45NTMsMS45NTMsNC41MTIsMi45MjksNy4wNzEsMi45MjkgICAgYzIuNTU5LDAsNS4xMTgtMC45NzcsNy4wNzEtMi45MjljMy45MDUtMy45MDUsMy45MDUtMTAuMjM3LDAtMTQuMTQybC05LjU0Ni05LjU0Nkw0OTIsMjQzLjE0M1Y0OTIuMDAxeiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQ1NS44MjcsMzMwLjQ3M2MtMy43MzctMS41NDktOC4wMzktMC42OTItMTAuODk4LDIuMTY3TDMzMi42NCw0NDQuOTNjLTIuODU5LDIuODYtMy43MTYsNy4xNjEtMi4xNjgsMTAuODk4ICAgIGMxLjU0OCwzLjczNyw1LjE5NCw2LjE3Myw5LjIzOSw2LjE3M0g0NTJjNS41MjIsMCwxMC00LjQ3NywxMC0xMFYzMzkuNzEyQzQ2MiwzMzUuNjY4LDQ1OS41NjQsMzMyLjAyMSw0NTUuODI3LDMzMC40NzN6ICAgICBNNDQyLDQ0Mi4wMDFoLTc4LjE0Nkw0NDIsMzYzLjg1NFY0NDIuMDAxeiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQ2My4wNiwxNDkuMjYxYy0yLjc1My0yLjc1Mi02Ljg1MS0zLjY1OC0xMC41MS0yLjMxOWwtNjguMjgxLDI1LjAwNWMtMS4zNjUsMC41LTIuNjA0LDEuMjkxLTMuNjMzLDIuMzE5bC0xOS4xOTksMTkuMTk5ICAgIEwyMzYuMDcxLDY4LjA5OGMtMS44NzYtMS44NzUtNC40MTktMi45MjktNy4wNzEtMi45MjlzLTUuMTk2LDEuMDU0LTcuMDcxLDIuOTI5TDcxLjAyNiwyMTkuMDAxSDM0LjE0M0wyMjksMjQuMTQzICAgIGwxMDYuOTI5LDEwNi45MjljMy45MDYsMy45MDUsMTAuMjM2LDMuOTA1LDE0LjE0MywwYzMuOTA1LTMuOTA1LDMuOTA1LTEwLjIzNywwLTE0LjE0M2wtMTE0LTExNCAgICBjLTMuOTA2LTMuOTA1LTEwLjIzNi0zLjkwNS0xNC4xNDMsMGwtMjE5LDIxOWMtMi44NTksMi44Ni0zLjcxNSw3LjE2MS0yLjE2OCwxMC44OThjMS41NDgsMy43MzgsNS4xOTQsNi4xNzQsOS4yMzksNi4xNzRoMTB2MjYzICAgIGMwLDUuNTIzLDQuNDc4LDEwLDEwLDEwaDE1OC45ODZjNS41MjIsMCwxMC00LjQ3NywxMC0xMHMtNC40NzgtMTAtMTAtMTBINDB2LTI1M2gzNS4xNjhjMi42NTIsMCw1LjE5NS0xLjA1NCw3LjA3MS0yLjkyOSAgICBMMjI5LDg5LjMxMWwxMTguMjk0LDExOC4yOTVMMTk5LDM1NS45MDF2LTg5LjloNzBjNS41MjIsMCwxMC00LjQ3NywxMC0xMGMwLTUuNTIzLTQuNDc4LTEwLTEwLTEwaC04MGMtNS41MjIsMC0xMCw0LjQ3Ny0xMCwxMCAgICB2MTE2YzAsMS4xNjcsMC4yMSwyLjI4MSwwLjU3NywzLjMyMmwtOC45NTksOC45NTljLTE1LjgzLDE1LjgzLTE1LjgzLDQxLjU4OCwwLDU3LjQxOGM3LjkxNiw3LjkxNiwxOC4zMTEsMTEuODc0LDI4LjcwOSwxMS44NzMgICAgYzEwLjM5NiwwLDIwLjc5NS0zLjk1OCwyOC43MDktMTEuODcybDg0LjMzMi04NC4zMzJjMy45MDUtMy45MDUsMy45MDUtMTAuMjM3LDAtMTQuMTQyYy0zLjkwNS0zLjkwNS0xMC4yMzUtMy45MDUtMTQuMTQzLDAgICAgbC02My44OTIsNjMuODkyTDIwNS4yLDM3Ny45ODZsMTgyLjcwNy0xODIuNzA3bDI5LjEzMywyOS4xMzNsLTY5LjgxNSw2OS44MTZjLTMuOTA1LDMuOTA1LTMuOTA1LDEwLjIzNywwLDE0LjE0MiAgICBjMy45MDYsMy45MDUsMTAuMjM2LDMuOTA1LDE0LjE0MywwbDc2LjY4Ni03Ni42ODZjMS4wMjctMS4wMjgsMS44MTktMi4yNjgsMi4zMTgtMy42MzJsMjUuMDA2LTY4LjI4MSAgICBDNDY2LjcxNywxNTYuMTE1LDQ2NS44MTMsMTUyLjAxNCw0NjMuMDYsMTQ5LjI2MXogTTIyMC4xOTIsNDIxLjI2bC02LjI5OCw2LjI5OGMtMy44OTEsMy44OTEtOS4wNjMsNi4wMzQtMTQuNTY2LDYuMDM0ICAgIHMtMTAuNjc2LTIuMTQzLTE0LjU2Ni02LjAzNGMtMy44OTItMy44OTEtNi4wMzQtOS4wNjQtNi4wMzQtMTQuNTY2czIuMTQxLTEwLjY3Niw2LjAzMy0xNC41NjdsNi4yOTgtNi4yOThMMjIwLjE5Miw0MjEuMjZ6ICAgICBNNDI3LjA4NiwyMDYuMTcxbC0yMC45MzgtMjAuOTM4bDMzLjAzOC0xMi4wOTlMNDI3LjA4NiwyMDYuMTcxeiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTMzNi42ODksMzE4LjkwMWMtMS44NTktMS44Ni00LjQzOS0yLjkzLTcuMDY5LTIuOTNzLTUuMjEsMS4wNy03LjA3LDIuOTNjLTEuODYsMS44Ny0yLjkzLDQuNDQtMi45Myw3LjA3ICAgIGMwLDIuNjQsMS4wNjksNS4yMSwyLjkzLDcuMDhjMS44NiwxLjg2LDQuNDMsMi45Miw3LjA3LDIuOTJjMi42MywwLDUuMjEtMS4wNiw3LjA2OS0yLjkyYzEuODYtMS44NywyLjkzMS00LjQ1LDIuOTMxLTcuMDggICAgQzMzOS42MiwzMjMuMzQxLDMzOC41NSwzMjAuNzcxLDMzNi42ODksMzE4LjkwMXoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMjksMTUxLjAwMWMtMjAuOTUzLDAtMzgsMTcuMDQ3LTM4LDM4czE3LjA0NywzOCwzOCwzOHMzOC0xNy4wNDcsMzgtMzhTMjQ5Ljk1MywxNTEuMDAxLDIyOSwxNTEuMDAxeiBNMjI5LDIwNy4wMDEgICAgYy05LjkyNSwwLTE4LTguMDc0LTE4LTE4YzAtOS45MjUsOC4wNzUtMTgsMTgtMThzMTgsOC4wNzUsMTgsMThTMjM4LjkyNSwyMDcuMDAxLDIyOSwyMDcuMDAxeiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+<h3>INTERIOR DESIGN</h3>   
+
+</div>     
+
+</div>    
+
+<div class="ser5 ser">
+
+<div class="img">
+
+<img src="service5.png">    
+<section class="details">
+<p>Our Building Architects & Engineers strive to design & promote sustainable building design. They find creative solutions to improve quality of your life.</p>    
+<button>LEARN MORE</button>    
+</section>
+
+</div> 
+
+<div class="title">    
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5NiA0OTYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQ5NiA0OTY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNTEycHgiIGhlaWdodD0iNTEycHgiPgo8Zz4KCTxnPgoJCTxyZWN0IHg9IjI3MiIgeT0iNDMyIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxyZWN0IHg9IjgwIiB5PSI0MzIiIHdpZHRoPSIxNzYiIGhlaWdodD0iMTYiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxyZWN0IHg9IjQ4IiB5PSI0MzIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQzOC42MTYsMGwtMjI0LDgwSDY0djQ4aDM3LjI0OGwtMTkuMiw2NEgyNGMtMTMuMjMyLDAtMjQsMTAuNzY4LTI0LDI0djEyOGMwLDEzLjIzMiwxMC43NjgsMjQsMjQsMjRoNDMuMDU2bC04LDE2SDU2ICAgIGMtMzAuODgsMC01NiwyNS4xMi01Niw1NnMyNS4xMiw1Niw1Niw1NmgyMjRjMzAuODgsMCw1Ni0yNS4xMiw1Ni01NnMtMjUuMTItNTYtNTYtNTZoLTMuMDU2bC04LTE2SDI4MGMxMy4yMzIsMCwyNC0xMC43NjgsMjQtMjQgICAgVjI0My42MzJsNjEuNjU2LTUzLjk3Nkw0MzIsMTIzLjMxMlYxNTJsMjIuNzg0LDE5Ny45MDRMNDE2LDM4OC42ODh2NTMuNzY4bC02NCwyNFY0OTZoNzQuMTI4bDYxLjU1Mi0zNS4xNjhMNDk2LDM0NFYwSDQzOC42MTZ6ICAgICBNNDE2LDQ4MGgtNDh2LTIuNDU2bDQ4LTE4VjQ4MHogTTQzMiwxOS4zNTJ2MTUuMTA0TDMxMC41NDQsODBoLTQ4LjM1Mkw0MzIsMTkuMzUyeiBNMjcyLDQwMHYxNmgxNnYtMTUuMTkyICAgIGM1LjA5NiwxLjA0LDkuODMyLDMuMDcyLDE0LjAyNCw1Ljg1NmwtMTAuNzEyLDEwLjcxMmwxMS4zMTIsMTEuMzEybDEwLjcxMi0xMC43MTJjMi43ODQsNC4xOTIsNC44MTYsOC45MjgsNS44NTYsMTQuMDI0SDMwNHYxNiAgICBoMTUuMTkyYy0xLjA0LDUuMDk2LTMuMDcyLDkuODMyLTUuODU2LDE0LjAyNGwtMTAuNzEyLTEwLjcxMmwtMTEuMzEyLDExLjMxMmwxMC43MTIsMTAuNzEyICAgIGMtNC4xOTIsMi43ODQtOC45MjgsNC44MTYtMTQuMDI0LDUuODU2VjQ2NGgtMTZ2MTZoLTE2di0xNmgtMTZ2MTZoLTE2di0xNmgtMTZ2MTZoLTE2di0xNmgtMTZ2MTZoLTE2di0xNmgtMTZ2MTZoLTE2di0xNmgtMTZ2MTYgICAgSDk2di0xNkg4MHYxNkg2NHYtMTZINDh2MTUuMTkyYy01LjA5Ni0xLjA0LTkuODMyLTMuMDcyLTE0LjAyNC01Ljg1NmwxMC43MTItMTAuNzEybC0xMS4zMTItMTEuMzEybC0xMC43MTIsMTAuNzEyICAgIGMtMi43ODQtNC4xOTItNC44MTYtOC45MjgtNS44NTYtMTQuMDI0SDMydi0xNkgxNi44MDhjMS4wNC01LjA5NiwzLjA3Mi05LjgzMiw1Ljg1Ni0xNC4wMjRsMTAuNzEyLDEwLjcxMmwxMS4zMTItMTEuMzEyICAgIGwtMTAuNzEyLTEwLjcxMmM0LjE5Mi0yLjc4NCw4LjkyOC00LjgxNiwxNC4wMjQtNS44NTZWNDE2aDE2di0xNmgxNnYxNmgxNnYtMTZoMTZ2MTZoMTZ2LTE2aDE2djE2aDE2di0xNmgxNnYxNmgxNnYtMTZoMTZ2MTZoMTYgICAgdi0xNmgxNnYxNmgxNnYtMTZIMjcyeiBNNzYuOTQ0LDM4NGw4LTE2aDE2Ni4xMTJsOCwxNkg3Ni45NDR6IE0yODgsMzQ0YzAsNC40MDgtMy41OTIsOC04LDhoLTE5LjA1Nkg3NS4wNTZIMjQgICAgYy00LjQwOCwwLTgtMy41OTItOC04di0yNGgyNzJWMzQ0eiBNMjU2LDI0MHY2NEgxMjB2LTY0SDI1NnogTTEyMi45MTIsMjI0bDE3LjMzNi01OC4yOTZjMS4wMTYtMy40MDgsNC4wOTYtNS43MDQsNy42NTYtNS43MDQgICAgSDI0OGM0LjQwOCwwLDgsMy41OTIsOCw4djU2SDEyMi45MTJ6IE0yODgsMzA0aC0xNlYxNjhjMC0xMy4yMzItMTAuNzY4LTI0LTI0LTI0SDE0Ny45MDRjLTEwLjY4LDAtMTkuOTIsNi44NzItMjIuOTkyLDE3LjEwNCAgICBsLTIwLjU5Miw2OS4zMDRMMTA0LjAzMiwzMDRIMTZ2LTI0aDMydi0xNkgxNnYtMTZoMzJ2LTE2SDE2di0xNmMwLTQuNDA4LDMuNTkyLTgsOC04aDY5Ljk1MmwyNC04MEgyODhWMzA0eiBNODAsMTEyVjk2aDIyNHYxNkg4MCAgICB6IE0zNTQuNzI4LDE3Ny45ODRMMzA0LDIyMi4zNjh2LTQ4Ljk1MmwzNC45NzYtMTMuOTkybDgwLjg1Ni01OC41MjhjMS41NDQsMi40LDMuNTEyLDQuNDcyLDUuNzg0LDYuMTg0TDM1NC43MjgsMTc3Ljk4NHogICAgIE00MTYuNDQ4LDgzLjZsLTg0LjM0NCw2MS4zMzZMMzA0LDE1Ni4xODRWMTI4aDE2VjkzLjU0NGwxMTItNDJ2MTMuOTI4QzQyNC4wNDgsNjguMzA0LDQxOC4wMjQsNzUuMTQ0LDQxNi40NDgsODMuNnogTTQ0MCw5NiAgICBjLTQuNDA4LDAtOC0zLjU5Mi04LThzMy41OTItOCw4LThjNC40MDgsMCw4LDMuNTkyLDgsOFM0NDQuNDA4LDk2LDQ0MCw5NnogTTQ3Mi4zMiw0NTEuMTY4TDQzMiw0NzQuMjE2di03OC45MDRMNDY3LjMxMiwzNjAgICAgaDExLjUyTDQ3Mi4zMiw0NTEuMTY4eiBNNDc5Ljk3NiwzNDRoLTkuNzY4TDQ0OCwxNTEuNTM2di00MS4wMDhjOS4yODgtMy4zMTIsMTYtMTIuMTEyLDE2LTIyLjUyOHMtNi43MTItMTkuMjE2LTE2LTIyLjUyOFYxNmgzMiAgICBsMC4wMTYsMzI3LjQzMkw0NzkuOTc2LDM0NHoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxyZWN0IHg9IjIwOCIgeT0iMjU2IiB3aWR0aD0iMzIiIGhlaWdodD0iMTYiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+<h3>BUILDING ENGINEERING</h3>   
+
+</div>     
+
+</div>    
+
+<div class="ser6 ser">
+
+<div class="img">
+
+<img src="service6.jpg">    
+<section class="details">
+<p>Successful preconstruction planning leads to successful project completions. We’re passionate about preconstruction and the impact it has on project success!</p>    
+<button>LEARN MORE</button>    
+</section>  
+
+</div>      
+
+<div class="title">    
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMi4wMDEgNTEyLjAwMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyLjAwMSA1MTIuMDAxOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTUwMy4yOCw0NC44OTdjNC44MTcsMCw4LjcyMS0zLjkwNSw4LjcyMS04LjcyMVY4LjcyMWMwLTQuODE2LTMuOTAzLTguNzIxLTguNzIxLTguNzIxSDEwOC42MzMgICAgYy00LjgxNiwwLTguNzIxLDMuOTA1LTguNzIxLDguNzIxdjM5NC42NDVjMCw0LjgxNiwzLjkwNSw4LjcyMSw4LjcyMSw4LjcyMWgzOTQuNjQ1YzQuODE3LDAsOC43MjEtMy45MDUsOC43MjEtOC43MjFWNjUuMjQ1ICAgIGMwLTQuODE2LTMuOTAzLTguNzIxLTguNzIxLTguNzIxYy00LjgxNywwLTguNzIxLDMuOTA1LTguNzIxLDguNzIxdjE0OS40MTZoLTM0LjYzNGMtNC44MTcsMC04LjcyMSwzLjkwNS04LjcyMSw4LjcyMSAgICBzMy45MDMsOC43MjEsOC43MjEsOC43MjFoMzQuNjM0djE2Mi41NDNIMjQ1LjM5M3YtNDIuMTk3YzAtNC44MTYtMy45MDUtOC43MjEtOC43MjEtOC43MjFjLTQuODE2LDAtOC43MjEsMy45MDUtOC43MjEsOC43MjEgICAgdjQyLjE5N0gxMTcuMzU0VjE3LjQ0MmgxMTAuNTk4djI3Mi4yMThjMCw0LjgxNiwzLjkwNSw4LjcyMSw4LjcyMSw4LjcyMWM0LjgxNiwwLDguNzIxLTMuOTA1LDguNzIxLTguNzIxdi01Ny41NTdoMTU1LjIyOSAgICBjNC44MTcsMCw4LjcyMS0zLjkwNSw4LjcyMS04LjcyMXMtMy45MDMtOC43MjEtOC43MjEtOC43MjFIMjQ1LjM5M1YxNy40NDJoMjQ5LjE2NnYxOC43MzQgICAgQzQ5NC41NTksNDAuOTkyLDQ5OC40NjIsNDQuODk3LDUwMy4yOCw0NC44OTd6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNzMuNjc5LDUwLjMzMUw0NC45MDIsNC4xMTJDNDMuMzEsMS41NTUsNDAuNTEsMCwzNy40OTksMGMtMy4wMTIsMC01LjgxMSwxLjU1NS03LjQwMyw0LjExMkwxLjMxOCw1MC4zMzEgICAgYy0xLjY3NCwyLjY4OS0xLjc1OSw2LjA3NC0wLjIyMSw4Ljg0M3M0LjQ1Nyw0LjQ4Nyw3LjYyNCw0LjQ4N2gyMC4wNTd2MzYuNDY4YzAsNC44MTYsMy45MDUsOC43MjEsOC43MjEsOC43MjEgICAgYzQuODE2LDAsOC43MjEtMy45MDUsOC43MjEtOC43MjFWNjMuNjYxaDIwLjA1N2MzLjE2NywwLDYuMDg2LTEuNzE3LDcuNjI0LTQuNDg3Uzc1LjM1NCw1My4wMTksNzMuNjc5LDUwLjMzMXogTTI0LjQyNCw0Ni4yMTkgICAgbDEzLjA3NC0yMC45OThsMTMuMDc0LDIwLjk5OEgyNC40MjR6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNzMuOSwzNTIuOTE0Yy0xLjUzOC0yLjc2OS00LjQ1Ny00LjQ4Ni03LjYyNC00LjQ4Nkg0Ni4yMTlWMTIzLjM4NGMwLTQuODE2LTMuOTA1LTguNzIxLTguNzIxLTguNzIxICAgIGMtNC44MTYsMC04LjcyMSwzLjkwNS04LjcyMSw4LjcyMXYyMjUuMDQzSDguNzIxYy0zLjE2NywwLTYuMDg2LDEuNzE3LTcuNjI0LDQuNDg3Yy0xLjUzOCwyLjc3LTEuNDUzLDYuMTU1LDAuMjIxLDguODQzICAgIGwyOC43NzcsNDYuMjE5YzEuNTkyLDIuNTU3LDQuMzkxLDQuMTEyLDcuNDAzLDQuMTEyYzMuMDEzLDAsNS44MTItMS41NTUsNy40MDMtNC4xMTJsMjguNzc3LTQ2LjIxOSAgICBDNzUuMzU0LDM1OS4wNjcsNzUuNDM5LDM1NS42ODMsNzMuOSwzNTIuOTE0eiBNMzcuNDk5LDM4Ni44NjhMMjQuNDI0LDM2NS44N2gyNi4xNDhMMzcuNDk5LDM4Ni44Njh6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNTA3Ljg4OSw0NjcuMDk5bC00Ni4yMTktMjguNzc3Yy0yLjY4OS0xLjY3NC02LjA3NC0xLjc1OC04Ljg0My0wLjIyMWMtMi43NjksMS41MzgtNC40ODYsNC40NTctNC40ODYsNy42MjR2MjAuMDU3ICAgIEgxNjMuNTczdi0yMC4wNTdjMC0zLjE2Ny0xLjcxNy02LjA4Ni00LjQ4Ni03LjYyNGMtMi43NjktMS41MzctNi4xNTMtMS40NTMtOC44NDQsMC4yMjFsLTQ2LjIxOSwyOC43NzcgICAgYy0yLjU1NywxLjU5Mi00LjExMiw0LjM5MS00LjExMiw3LjQwM3MxLjU1NSw1LjgxMSw0LjExMiw3LjQwM2w0Ni4yMTksMjguNzc3YzEuNDA4LDAuODc3LDMuMDA4LDEuMzE3LDQuNjA5LDEuMzE3ICAgIGMxLjQ1NywwLDIuOTE1LTAuMzY0LDQuMjM0LTEuMDk2YzIuNzctMS41MzgsNC40ODctNC40NTcsNC40ODctNy42MjR2LTIwLjA1N0g0NDguMzR2MjAuMDU3YzAsMy4xNjcsMS43MTksNi4wODYsNC40ODYsNy42MjQgICAgYzEuMzIsMC43MzMsMi43NzgsMS4wOTYsNC4yMzUsMS4wOTZjMS42MDEsMCwzLjIwMS0wLjQ0MSw0LjYwOS0xLjMxN2w0Ni4yMTktMjguNzc3YzIuNTU3LTEuNTkyLDQuMTEyLTQuMzkxLDQuMTEyLTcuNDAzICAgIEM1MTIuMDAxLDQ3MS40ODksNTEwLjQ0Niw0NjguNjkxLDUwNy44ODksNDY3LjA5OXogTTE0Ni4xMzEsNDg3LjU3NmwtMjAuOTk4LTEzLjA3NGwyMC45OTgtMTMuMDc0VjQ4Ny41NzZ6IE00NjUuNzgyLDQ4Ny41NzYgICAgdi0yNi4xNDhsMjEsMTMuMDc0TDQ2NS43ODIsNDg3LjU3NnoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />    
+<h3>PRECONSTRUCTION PLANNING</h3>   
+
+</div>     
+
+</div>    
+
+</div>    
+
+</div>   
+<!---------- services ------------>    
+
+<!----------- projects ----------->
+<div class="projects">
+
+<h2>FEATURED PROJECTS</h2>    
+
+<div class="buttons">
+
+<button class="active3">ALL</button>    
+<button>BUILDING</button>    
+<button>CONSULTING</button>    
+<button>INTERIOR</button>    
+<button>OFFICE</button>    
+
+</div>      
+
+<div class="projects2">   
+
+<div class="all project active2">
+
+<div class="img1 img">
+<img src="project1.jpg">
+<section>
+
+<span class="tag">BUILDING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>    
+</div>    
+
+<div class="img2 img">
+<img src="project2.jpg">
+<section>
+
+<span class="tag">BUILDING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>    
+</div>    
+
+<div class="img3 img">
+<img src="project3.jpg"> 
+<section>
+
+<span class="tag">INTERIOR</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>      
+</div>   
+
+<div class="img4 img">
+<img src="project4.jpg">
+<section>
+
+<span class="tag">OFFICE</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section> 
+</div>    
+
+<div class="img5 img">
+<img src="project5.jpg">
+<section>
+
+<span class="tag">BUILDING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section> 
+</div>    
+
+<div class="img6 img">
+<img src="project6.jpg">   
+<section>
+
+<span class="tag">CONSULTING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>  
+</div>
+
+</div>  
+
+<div class="building project">
+
+<div class="img1 img">
+<img src="project7.jpg">
+<section>
+
+<span class="tag">BUILDING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>    
+</div>    
+
+<div class="img2 img">
+<img src="project8.jpg">
+<section>
+
+<span class="tag">BUILDING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>     
+</div>    
+
+<div class="img3 img">
+<img src="project9.jpg"> 
+<section>
+
+<span class="tag">BUILDING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>      
+</div>   
+
+<div class="img4 img">
+<img src="project10.jpg">
+<section>
+
+<span class="tag">BUILDING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>  
+</div>    
+
+<div class="img5 img">
+<img src="project11.jpg">
+<section>
+
+<span class="tag">BUILDING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>  
+</div>       
+
+</div>    
+
+<div class="consulting project">
+
+<div class="img1 img">
+<img src="project1.jpg">
+<section>
+
+<span class="tag">CONSULTING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>    
+</div>    
+
+<div class="img2 img">
+<img src="project7.jpg">
+<section>
+
+<span class="tag">CONSULTING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>        
+</div>    
+
+<div class="img3 img">
+<img src="project3.jpg"> 
+<section>
+
+<span class="tag">CONSULTING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>        
+</div>   
+
+<div class="img4 img">
+<img src="project9.jpg">
+<section>
+
+<span class="tag">CONSULTING</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>   
+</div>    
+
+
+</div>  
+
+<div class="interior project">
+
+<div class="img1 img">
+<img src="project5.jpg">
+<section>
+
+<span class="tag">INTERIOR</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>      
+</div>    
+
+<div class="img2 img">
+<img src="project11.jpg">
+<section>
+
+<span class="tag">INTERIOR</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>       
+</div>      
+
+<div class="img3 img">
+<img src="project2.jpg"> 
+<section>
+
+<span class="tag">INTERIOR</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>        
+</div>     
+
+</div> 
+
+<div class="office project">
+
+<div class="img1 img">
+<img src="project7.jpg">
+<section>
+
+<span class="tag">OFFICE</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>      
+</div>    
+
+<div class="img2 img">
+<img src="project4.jpg">
+<section>
+
+<span class="tag">OFFICE</span>
+
+<h4>Limoges, France</h4> 
+
+<h5>CLIENT: <span style="color: rgb(225, 4, 4)">SOFT FIVE CORPORATION</span></h5> 
+<h5>LOCATION: <span style="color: rgb(225, 4, 4)">NEW YORK, NY</span></h5> 
+
+<button>LEARN MORE</button>    
+
+</section>        
+</div>     
+
+</div>    
+
+</div>   
+
+</div>    
+<!-------------- projects --------------->    
+
+<!-------------- testimonial -------------------->    
+<div class="testimonial">
+
+<h2>OUR TESTIMONIALS</h2>
+
+<div class="quotes" id="quotes">
+
+<div class="quote3 quote">
+
+<i class="fa fa-quote-right"></i> 
+
+<p>Their reputation is on the highest level and their portfolio speaks for itself. Constico is a team of like-minded people who indeed love their job. I am completely satisfied with my project. I selected Constico among other companies because of good recommendations I’ve heard.</p>    
+
+<img src="person3.jpg">
+
+<h4>Adam Smith <span>- Accountant</span></h4>    
+
+</div> 
+
+<div class="quote2 quote">
+
+<i class="fa fa-quote-right"></i> 
+
+<p>Their reputation is on the highest level and their portfolio speaks for itself. Constico is a team of like-minded people who indeed love their job. I am completely satisfied with my project. I selected Constico among other companies because of good recommendations I’ve heard.</p>   
+
+<img src="person2.jpg">
+
+<h4>Mary Karter <span>- MANAGER</span></h4>    
+
+</div>      
+
+<div class="quote1 quote active5">
+
+<i class="fa fa-quote-right"></i> 
+
+<p>I selected Constico among other companies because of good recommendations I’ve heard. Their reputation is on the highest level and their portfolio speaks for itself. Constico is a team of like-minded people who indeed love their job. I am completely satisfied with my project.</p>    
+
+<img src="person1.jpg">
+
+<h4>TOM FORD <span>- MANAGER</span></h4>    
+
+</div>        
+
+</div> 
+
+<div class="controls">
+<i class="fa fa-chevron-left back"></i>    
+<i class="fa fa-chevron-right next"></i>        
+</div>    
+
+</div>    
+<!---------------- testimonial ------------> 
+
+<!---------- collaborate ------------->    
+<div class="collaborate">
+
+<h2>COLLABORATE</h2>
+<h1>INTERESTING IN WORKING WITH CONSTICO?</h1>   
+
+<div class="collaborate2">
+
+<div>
+
+<section class="front">
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIuMDAzIDUxMi4wMDMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMi4wMDMgNTEyLjAwMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik01MDkuNjA1LDE3MS4wNzVsLTk5LjMtOTkuMzAxYy0zLjE5My0zLjE5NC04LjM3LTMuMTk0LTExLjU2NSwwbC00OS42NSw0OS42NWMtMS41MzMsMS41MzMtMi4zOTQsMy42MTMtMi4zOTQsNS43ODIgICAgYzAsMi4xNjksMC44NjEsNC4yNDksMi4zOTQsNS43ODJsNC45NTMsNC45NTNsLTExLjM4MiwxMS4zOGMtNy4zODksNy4zODYtMTguODU0LDkuNDAyLTI4LjUyOCw1LjAxMSAgICBjLTkuMDctNC4xMTctMTkuMTUzLTYuMjkyLTI5LjE2MS02LjI5MmMtMTEuODgzLDAtMjMuNDk2LDIuOTgzLTMzLjgxNCw4LjYzM2MtNC4zMDMtMS4wNi04LjcxOS0xLjYwMy0xMy4xNzktMS42MDMgICAgYy02LjQ1LDAtMTIuNzg1LDEuMTEzLTE4LjgyOSwzLjMxYy05LjY1MSwzLjUwNi0xOS45OTYsMS4zMzMtMjcuMDAzLTUuNjcyTDE3MS43MSwxMzIuMjdsMi40MzQtMi40MzQgICAgYzEuNTMzLTEuNTMzLDIuMzk0LTMuNjEzLDIuMzk0LTUuNzgyYzAtMi4xNjktMC44NjEtNC4yNDktMi4zOTQtNS43ODJsLTQ5LjY1LTQ5LjY1Yy0zLjE5NS0zLjE5NC04LjM3MS0zLjE5NC0xMS41NjUsMCAgICBMMi4zOTUsMTc5LjE1NmMtMy4xOTMsMy4xOTQtMy4xOTMsOC4zNzEsMCwxMS41NjRsNDkuNjQ5LDQ5LjY1YzEuNTM0LDEuNTM0LDMuNjEzLDIuMzk1LDUuNzgzLDIuMzk1czQuMjQ4LTAuODYxLDUuNzgzLTIuMzk1ICAgIGwyLjk2MS0yLjk2MWwxNC40MTQsMTQuNDE0YzMuNjM3LDMuNjM3LDYuMDQ4LDguMTc4LDYuOTcxLDEzLjEzMWM0Ljc4NiwyNS42ODMsMTcuMDg2LDQ5LjAzMiwzNS41Nyw2Ny41MjZsMi43MTUsMi43MTUgICAgYy01LjIxNCw1LjQ5MS04LjA4MiwxMi42NDUtOC4wODIsMjAuMjQ1YzAsNy44NjEsMy4wNjIsMTUuMjUyLDguNjIsMjAuODExYzUuNzM4LDUuNzM4LDEzLjI3Myw4LjYwNiwyMC44MTEsOC42MDYgICAgYzAuNDkxLDAsMC45OC0wLjAxMywxLjQ3MS0wLjAzOGMtMC4zOTgsOC4wMTksMi40NTgsMTYuMTcsOC41NjgsMjIuMjgyYzUuNTU5LDUuNTU5LDEyLjk1LDguNjIsMjAuODExLDguNjIgICAgYzAuMjE5LDAsMC40MzctMC4wMTEsMC42NTYtMC4wMTZjLTAuMTY4LDcuNzQ5LDIuNjkxLDE1LjU1Miw4LjU5MSwyMS40NTNjNS41NTksNS41NiwxMi45NSw4LjYyLDIwLjgxMiw4LjYyICAgIGM3Ljg2MSwwLDE1LjI1MS0zLjA2MiwyMC44MTEtOC42MmMwLjQ2OC0wLjQ2OCwwLjkwOS0wLjk1MiwxLjM0LTEuNDQyYzIuODk1LDEuMDA5LDUuOTU3LDEuNTQ2LDkuMDUyLDEuNTQ2ICAgIGM3LjM1MywwLDE0LjI2MS0yLjg2NSwxOS40NDEtOC4wNjJjMi43NTctMi43NTYsNC44NDktNS45OTgsNi4yMTEtOS41MjlsMC44MzcsMC44MzdjNS4zNTksNS4zNTksMTIuMzk4LDguMDM5LDE5LjQzNyw4LjAzOSAgICBjNy4wMzksMCwxNC4wNzgtMi42OCwxOS40MzctOC4wMzljMi44NDgtMi44NDgsNC45ODgtNi4yMTEsNi4zNDQtOS44NzhjNC43OTcsMy40ODksMTAuNDc2LDUuMjM2LDE2LjE1OCw1LjIzNiAgICBjNy4wMzksMCwxNC4wODItMi42NzksMTkuNDQ2LTguMDM2YzUuMTkxLTUuMTkxLDguMDUtMTIuMDk3LDguMDUtMTkuNDQ1YzAtMi4yMi0wLjI2Ni00LjM5Ny0wLjc3My02LjUwMiAgICBjNS4yMzctMS4wNjQsMTAuMDQ5LTMuNjM1LDEzLjkxLTcuNTAxYzUuMTkxLTUuMTkxLDguMDUtMTIuMDk0LDguMDUtMTkuNDM3YzAtNS43ODUtMS43ODItMTEuMjkyLTUuMDczLTE1LjkxbDYuNTYtNi41NiAgICBjMTguNjk5LTE4LjcwOCwzMS4wNTItNDIuMzUsMzUuNzI1LTY4LjM3MWMwLjc4My00LjM1NywyLjk0MS04LjQwNCw2LjI0My0xMS43MDdsMjQuMzk4LTI0LjM5OGw0LjI4OSw0LjI4OSAgICBjMS41OTcsMS41OTcsMy42OSwyLjM5NSw1Ljc4MywyLjM5NWMyLjA5MiwwLDQuMTg2LTAuNzk4LDUuNzgzLTIuMzk1bDQ5LjY1LTQ5LjY1YzEuNTMzLTEuNTMzLDIuMzk0LTMuNjEzLDIuMzk0LTUuNzgyICAgIFM1MTEuMTM4LDE3Mi42MDksNTA5LjYwNSwxNzEuMDc1eiBNNTcuODI3LDIyMy4wMjVsLTM4LjA4Ni0zOC4wODZMMTE4LjcxLDg1Ljk3bDM4LjA4NywzOC4wODZMNTcuODI3LDIyMy4wMjV6IE0xNTYuODM2LDM2NC42ODkgICAgYy01LjA5Nyw1LjA5Ni0xMy4zOTIsNS4wOTgtMTguNDkzLDBjLTIuNDctMi40NzEtMy44My01Ljc1NC0zLjgzLTkuMjQ3YzAtMy40OTIsMS4zNjEtNi43NzYsMy44MzEtOS4yNDYgICAgYzIuNTQ5LTIuNTQ5LDUuODk2LTMuODI0LDkuMjQ1LTMuODI0YzMuMzQ4LDAsNi42OTgsMS4yNzUsOS4yNDYsMy44MjRDMTYxLjkzMywzNTEuMjk0LDE2MS45MzMsMzU5LjU5LDE1Ni44MzYsMzY0LjY4OXogICAgIE0xODcuNjg0LDM5NS41MzdjLTIuNDY4LDIuNDcxLTUuNzUxLDMuODMtOS4yNDYsMy44M2MtMy40OTIsMC02Ljc3Ni0xLjM2MS05LjI0NS0zLjgzYy01LjA5OS01LjA5OC01LjA5OS0xMy4zOTQsMC0xOC40OTMgICAgYzIuNTQ5LTIuNTQ5LDUuODk2LTMuODI0LDkuMjQ2LTMuODI0YzMuMzQ3LDAsNi42OTcsMS4yNzUsOS4yNDUsMy44MjRDMTkyLjc4NCwzODIuMTQyLDE5Mi43ODQsMzkwLjQzOSwxODcuNjg0LDM5NS41Mzd6ICAgICBNMjE3Ljc0Miw0MjUuNTk0Yy0yLjQ3LDIuNDctNS43NTMsMy44My05LjI0NSwzLjgzYy0zLjQ5MywwLTYuNzc3LTEuMzYxLTkuMjQ2LTMuODNjLTUuMDk5LTUuMDk4LTUuMDk5LTEzLjM5NCwwLTE4LjQ5MyAgICBjMi41NDktMi41NDksNS44OTYtMy44MjQsOS4yNDYtMy44MjRjMy4zNDcsMCw2LjY5NywxLjI3NSw5LjI0NSwzLjgyNEMyMjIuODQxLDQxMi4yLDIyMi44NDEsNDIwLjQ5NiwyMTcuNzQyLDQyNS41OTR6ICAgICBNMzU2LjYzLDM2Mi44MjJjLTIuMTAyLDIuMTA0LTQuODk3LDMuMjYzLTcuODY5LDMuMjYzcy01Ljc2Ny0xLjE1OS03Ljg3My0zLjI2OGwtNzkuMzMtNzkuMzEyICAgIGMtMy4xOTYtMy4xOTMtOC4zNzItMy4xOTItMTEuNTY1LDAuMDAyYy0zLjE5MiwzLjE5My0zLjE5MSw4LjM3MSwwLjAwMiwxMS41NjRsODUuNDUxLDg1LjQ0MmMyLjEwMywyLjEwMiwzLjI2LDQuODk4LDMuMjYsNy44NzIgICAgYzAsMi45OC0xLjE1OCw1Ljc3OS0zLjI1Nyw3Ljg3OGMtNC4zNDcsNC4zNDMtMTEuNDE2LDQuMzQ0LTE1Ljc1NiwwLjAwM2wtMTQuNDE2LTE0LjQxNmMtMC4wOC0wLjA4My0wLjE1OC0wLjE2Ny0wLjI0MS0wLjI0OSAgICBjLTAuMDI0LTAuMDI0LTAuMDUxLTAuMDQ1LTAuMDc2LTAuMDY5bC02Ni4yNjctNjYuMjY3Yy0zLjE5NS0zLjE5My04LjM3MS0zLjE5My0xMS41NjUsMGMtMy4xOTQsMy4xOTMtMy4xOTQsOC4zNzEsMCwxMS41NjQgICAgbDY2LjQ4LDY2LjQ3OWMyLjAzMiwyLjA4MywzLjE1MSw0LjgzOSwzLjE1MSw3Ljc2M2MwLDIuOTc0LTEuMTU5LDUuNzctMy4yNjEsNy44NzJjLTQuMzM4LDQuMzQxLTExLjQwMSw0LjM0MS0xNS43NDMsMCAgICBsLTcyLjA4NS03Mi4wODZjLTMuMTk1LTMuMTk0LTguMzcxLTMuMTk0LTExLjU2NSwwYy0zLjE5NCwzLjE5My0zLjE5NCw4LjM3MSwwLDExLjU2NGw1My40MzQsNTMuNDM1ICAgIGMwLjAxNSwwLjAxNSwwLjAyNywwLjAzMiwwLjA0MywwLjA0NmMyLjEwMSwyLjA5NywzLjI1Nyw0Ljg4OCwzLjI1Nyw3Ljg1OWMwLDIuOTczLTEuMTU4LDUuNzY5LTMuMjY5LDcuODggICAgYy0yLjA5OSwyLjEwNC00Ljg5MywzLjI2My03Ljg3LDMuMjYzYy0wLjcxOSwwLTEuNDIyLTAuMDc0LTIuMTEtMC4yMDRjMS4zMjMtOC45MTMtMS40MzYtMTguMzItOC4yODItMjUuMTY3ICAgIGMtNS41NTktNS41NTgtMTIuOTUtOC42Mi0yMC44MTEtOC42MmMtMC4yMTksMC0wLjQzNywwLjAxMS0wLjY1NiwwLjAxNmMwLjE2OC03Ljc0OS0yLjY5LTE1LjU1Mi04LjU5MS0yMS40NTMgICAgYy01LjU2LTUuNTU4LTEyLjk1LTguNjItMjAuODEyLTguNjJjLTAuNDkyLDAtMC45ODEsMC4wMTItMS40NjksMC4wMzZjMC4zOTMtOC4wMTQtMi40NjMtMTYuMTU4LTguNTctMjIuMjY2ICAgIGMtNy40MzQtNy40MzMtMTcuODg0LTEwLjA0NC0yNy40NDQtNy44NDdsLTUuODY0LTUuODY0Yy0xNi4xNC0xNi4xNDctMjYuODc4LTM2LjUzNS0zMS4wNTctNTguOTYgICAgYy0xLjUzMS04LjIxMy01LjUwMi0xNS43MTctMTEuNDgzLTIxLjY5OWwtMTQuNDE1LTE0LjQxNWw4Mi4wMS04Mi4wMWwyMC40MzgsMjAuNDM4YzcuODU2LDcuODU2LDE4LjU1MiwxMi4wNiwyOS41MDcsMTIuMDYgICAgYzQuOTA2LDAsOS44NjctMC44NDQsMTQuNjQ2LTIuNTgxYzIuMzE4LTAuODQzLDQuNzE1LTEuNDQ4LDcuMTQ0LTEuODMybC01MC42MzIsNTAuNjMzYy02LjE5NSw2LjE5NC05LjYwNywxNC40My05LjYwNywyMy4xOTEgICAgYzAsOC43NiwzLjQxMiwxNi45OTYsOS42MDYsMjMuMTljNi4zOTQsNi4zOTQsMTQuNzksOS41OSwyMy4xOSw5LjU4OWM4LjM5OCwwLDE2Ljc5Ny0zLjE5OCwyMy4xOTItOS41ODlsMjUuNDMtMjUuNDNsNi44ODMsNi44ODggICAgYzAuMDAyLDAuMDAyLDAuMDAzLDAuMDAzLDAuMDA1LDAuMDA1bDAuMjg2LDAuMjg2bDAuMjc1LDAuMjc1YzAuMDAxLDAuMDAxLDAuMDAzLDAuMDAzLDAuMDA1LDAuMDA0bDAuMDA1LDAuMDA1ICAgIGMwLjA3OSwwLjA3OCwwLjE1NiwwLjE1MiwwLjIzMywwLjIyNmw5NS44ODEsOTUuODgxYzIuMTAzLDIuMTAyLDMuMjYsNC44OTgsMy4yNiw3Ljg3MiAgICBDMzU5Ljg5MywzNTcuOTIxLDM1OC43MzYsMzYwLjcxNywzNTYuNjMsMzYyLjgyMnogTTQwOC4xMzcsMjQwLjgzNGMtNS42NzQsNS42NzUtOS40LDEyLjcyMy0xMC43NzQsMjAuMzgxICAgIGMtNC4wOCwyMi43Mi0xNC44NjcsNDMuMzY0LTMxLjE5Myw1OS42OThsLTYuMjg0LDYuMjg1bC01MS43MzEtNTEuNzMxYzEuMTI0LDAuMDgzLDIuMjUzLDAuMTM4LDMuMzksMC4xMzggICAgYzUuMjM4LDAsMTAuNTk4LTAuOTE4LDE1LjkzNC0zLjEwMWM0LjE4LTEuNzEsNi4xODItNi40ODUsNC40NzItMTAuNjY0Yy0xLjcxLTQuMTc5LTYuNDgxLTYuMTgyLTEwLjY2NC00LjQ3MiAgICBjLTIxLjA0Niw4LjYxMS00Ni4yNzgtMTUuMTItNDkuMDg3LTE3Ljg1NWMtMC4wNDctMC4wNDYtMC4wOTQtMC4wOTEtMC4xNDItMC4xMzVsLTAuMjktMC4yOSAgICBjLTAuMDAxLTAuMDAxLTAuMDAyLTAuMDAxLTAuMDAzLTAuMDAybC0wLjI1My0wLjI1MmMtMC4wMDEtMC4wMDEtMC4wMDMtMC4wMDMtMC4wMDUtMC4wMDRsLTYuODg0LTYuODg5bDcuODA2LTcuODA3ICAgIGMzLjE5NS0zLjE5NCwzLjE5NS04LjM3MSwwLjAwMS0xMS41NjVjLTMuMTk0LTMuMTkyLTguMzcxLTMuMTkzLTExLjU2NCwwbC0xMy41NywxMy41N2MtMC4wMDUsMC4wMDUtMC4wMTEsMC4wMS0wLjAxNiwwLjAxNSAgICBjLTAuMDA1LDAuMDA1LTAuMDEsMC4wMTEtMC4wMTUsMC4wMTZsLTMxLjIsMzEuMmMtNi40MTIsNi40MTEtMTYuODQyLDYuNDA5LTIzLjI1MiwwYy0zLjEwNS0zLjEwNS00LjgxNS03LjIzNC00LjgxNS0xMS42MjYgICAgYzAtNC4zOTIsMS43MS04LjUyMSw0LjgxNi0xMS42MjZsNTMuODUyLTUzLjg1NGMyLjk5Ni0yLjk5NSw2LjMyNi01LjYzLDkuOTA1LTcuODM3YzguNTAzLTUuMjU2LDE4LjMyNC04LjAzNCwyOC40MDEtOC4wMzQgICAgYzcuNjkzLDAsMTUuNDM5LDEuNjcsMjIuNDAzLDQuODMxYzE1Ljg0Miw3LjE4OCwzNC42NzEsMy44MzksNDYuODUxLTguMzM4bDExLjM4My0xMS4zODFsNjYuOTI5LDY2LjkyOUw0MDguMTM3LDI0MC44MzR6ICAgICBNNDU0LjE3MiwyMTQuOTQ0bC04Ny43MzYtODcuNzM2bDM4LjA4Ny0zOC4wODZsODcuNzM2LDg3LjczNkw0NTQuMTcyLDIxNC45NDR6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc
++Cgk8Zz4KCQk8Y2lyY2xlIGN4PSI0NjIuNDEiIGN5PSIxODMuMTEiIHI9IjguMTc3IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8Y2lyY2xlIGN4PSI1My41NjciIGN5PSIxOTEuMTg5IiByPSI4LjE3NyIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+
+<div>
+<h3>CARE WORK</h3>
+<h4>WORK WITH US</h4>    
+</div>    
+
+</section>    
+
+<section class="back">
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIuMDAzIDUxMi4wMDMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMi4wMDMgNTEyLjAwMzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI2NHB4IiBoZWlnaHQ9IjY0cHgiPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik01MDkuNjA1LDE3MS4wNzVsLTk5LjMtOTkuMzAxYy0zLjE5My0zLjE5NC04LjM3LTMuMTk0LTExLjU2NSwwbC00OS42NSw0OS42NWMtMS41MzMsMS41MzMtMi4zOTQsMy42MTMtMi4zOTQsNS43ODIgICAgYzAsMi4xNjksMC44NjEsNC4yNDksMi4zOTQsNS43ODJsNC45NTMsNC45NTNsLTExLjM4MiwxMS4zOGMtNy4zODksNy4zODYtMTguODU0LDkuNDAyLTI4LjUyOCw1LjAxMSAgICBjLTkuMDctNC4xMTctMTkuMTUzLTYuMjkyLTI5LjE2MS02LjI5MmMtMTEuODgzLDAtMjMuNDk2LDIuOTgzLTMzLjgxNCw4LjYzM2MtNC4zMDMtMS4wNi04LjcxOS0xLjYwMy0xMy4xNzktMS42MDMgICAgYy02LjQ1LDAtMTIuNzg1LDEuMTEzLTE4LjgyOSwzLjMxYy05LjY1MSwzLjUwNi0xOS45OTYsMS4zMzMtMjcuMDAzLTUuNjcyTDE3MS43MSwxMzIuMjdsMi40MzQtMi40MzQgICAgYzEuNTMzLTEuNTMzLDIuMzk0LTMuNjEzLDIuMzk0LTUuNzgyYzAtMi4xNjktMC44NjEtNC4yNDktMi4zOTQtNS43ODJsLTQ5LjY1LTQ5LjY1Yy0zLjE5NS0zLjE5NC04LjM3MS0zLjE5NC0xMS41NjUsMCAgICBMMi4zOTUsMTc5LjE1NmMtMy4xOTMsMy4xOTQtMy4xOTMsOC4zNzEsMCwxMS41NjRsNDkuNjQ5LDQ5LjY1YzEuNTM0LDEuNTM0LDMuNjEzLDIuMzk1LDUuNzgzLDIuMzk1czQuMjQ4LTAuODYxLDUuNzgzLTIuMzk1ICAgIGwyLjk2MS0yLjk2MWwxNC40MTQsMTQuNDE0YzMuNjM3LDMuNjM3LDYuMDQ4LDguMTc4LDYuOTcxLDEzLjEzMWM0Ljc4NiwyNS42ODMsMTcuMDg2LDQ5LjAzMiwzNS41Nyw2Ny41MjZsMi43MTUsMi43MTUgICAgYy01LjIxNCw1LjQ5MS04LjA4MiwxMi42NDUtOC4wODIsMjAuMjQ1YzAsNy44NjEsMy4wNjIsMTUuMjUyLDguNjIsMjAuODExYzUuNzM4LDUuNzM4LDEzLjI3Myw4LjYwNiwyMC44MTEsOC42MDYgICAgYzAuNDkxLDAsMC45OC0wLjAxMywxLjQ3MS0wLjAzOGMtMC4zOTgsOC4wMTksMi40NTgsMTYuMTcsOC41NjgsMjIuMjgyYzUuNTU5LDUuNTU5LDEyLjk1LDguNjIsMjAuODExLDguNjIgICAgYzAuMjE5LDAsMC40MzctMC4wMTEsMC42NTYtMC4wMTZjLTAuMTY4LDcuNzQ5LDIuNjkxLDE1LjU1Miw4LjU5MSwyMS40NTNjNS41NTksNS41NiwxMi45NSw4LjYyLDIwLjgxMiw4LjYyICAgIGM3Ljg2MSwwLDE1LjI1MS0zLjA2MiwyMC44MTEtOC42MmMwLjQ2OC0wLjQ2OCwwLjkwOS0wLjk1MiwxLjM0LTEuNDQyYzIuODk1LDEuMDA5LDUuOTU3LDEuNTQ2LDkuMDUyLDEuNTQ2ICAgIGM3LjM1MywwLDE0LjI2MS0yLjg2NSwxOS40NDEtOC4wNjJjMi43NTctMi43NTYsNC44NDktNS45OTgsNi4yMTEtOS41MjlsMC44MzcsMC44MzdjNS4zNTksNS4zNTksMTIuMzk4LDguMDM5LDE5LjQzNyw4LjAzOSAgICBjNy4wMzksMCwxNC4wNzgtMi42OCwxOS40MzctOC4wMzljMi44NDgtMi44NDgsNC45ODgtNi4yMTEsNi4zNDQtOS44NzhjNC43OTcsMy40ODksMTAuNDc2LDUuMjM2LDE2LjE1OCw1LjIzNiAgICBjNy4wMzksMCwxNC4wODItMi42NzksMTkuNDQ2LTguMDM2YzUuMTkxLTUuMTkxLDguMDUtMTIuMDk3LDguMDUtMTkuNDQ1YzAtMi4yMi0wLjI2Ni00LjM5Ny0wLjc3My02LjUwMiAgICBjNS4yMzctMS4wNjQsMTAuMDQ5LTMuNjM1LDEzLjkxLTcuNTAxYzUuMTkxLTUuMTkxLDguMDUtMTIuMDk0LDguMDUtMTkuNDM3YzAtNS43ODUtMS43ODItMTEuMjkyLTUuMDczLTE1LjkxbDYuNTYtNi41NiAgICBjMTguNjk5LTE4LjcwOCwzMS4wNTItNDIuMzUsMzUuNzI1LTY4LjM3MWMwLjc4My00LjM1NywyLjk0MS04LjQwNCw2LjI0My0xMS43MDdsMjQuMzk4LTI0LjM5OGw0LjI4OSw0LjI4OSAgICBjMS41OTcsMS41OTcsMy42OSwyLjM5NSw1Ljc4MywyLjM5NWMyLjA5MiwwLDQuMTg2LTAuNzk4LDUuNzgzLTIuMzk1bDQ5LjY1LTQ5LjY1YzEuNTMzLTEuNTMzLDIuMzk0LTMuNjEzLDIuMzk0LTUuNzgyICAgIFM1MTEuMTM4LDE3Mi42MDksNTA5LjYwNSwxNzEuMDc1eiBNNTcuODI3LDIyMy4wMjVsLTM4LjA4Ni0zOC4wODZMMTE4LjcxLDg1Ljk3bDM4LjA4NywzOC4wODZMNTcuODI3LDIyMy4wMjV6IE0xNTYuODM2LDM2NC42ODkgICAgYy01LjA5Nyw1LjA5Ni0xMy4zOTIsNS4wOTgtMTguNDkzLDBjLTIuNDctMi40NzEtMy44My01Ljc1NC0zLjgzLTkuMjQ3YzAtMy40OTIsMS4zNjEtNi43NzYsMy44MzEtOS4yNDYgICAgYzIuNTQ5LTIuNTQ5LDUuODk2LTMuODI0LDkuMjQ1LTMuODI0YzMuMzQ4LDAsNi42OTgsMS4yNzUsOS4yNDYsMy44MjRDMTYxLjkzMywzNTEuMjk0LDE2MS45MzMsMzU5LjU5LDE1Ni44MzYsMzY0LjY4OXogICAgIE0xODcuNjg0LDM5NS41MzdjLTIuNDY4LDIuNDcxLTUuNzUxLDMuODMtOS4yNDYsMy44M2MtMy40OTIsMC02Ljc3Ni0xLjM2MS05LjI0NS0zLjgzYy01LjA5OS01LjA5OC01LjA5OS0xMy4zOTQsMC0xOC40OTMgICAgYzIuNTQ5LTIuNTQ5LDUuODk2LTMuODI0LDkuMjQ2LTMuODI0YzMuMzQ3LDAsNi42OTcsMS4yNzUsOS4yNDUsMy44MjRDMTkyLjc4NCwzODIuMTQyLDE5Mi43ODQsMzkwLjQzOSwxODcuNjg0LDM5NS41Mzd6ICAgICBNMjE3Ljc0Miw0MjUuNTk0Yy0yLjQ3LDIuNDctNS43NTMsMy44My05LjI0NSwzLjgzYy0zLjQ5MywwLTYuNzc3LTEuMzYxLTkuMjQ2LTMuODNjLTUuMDk5LTUuMDk4LTUuMDk5LTEzLjM5NCwwLTE4LjQ5MyAgICBjMi41NDktMi41NDksNS44OTYtMy44MjQsOS4yNDYtMy44MjRjMy4zNDcsMCw2LjY5NywxLjI3NSw5LjI0NSwzLjgyNEMyMjIuODQxLDQxMi4yLDIyMi44NDEsNDIwLjQ5NiwyMTcuNzQyLDQyNS41OTR6ICAgICBNMzU2LjYzLDM2Mi44MjJjLTIuMTAyLDIuMTA0LTQuODk3LDMuMjYzLTcuODY5LDMuMjYzcy01Ljc2Ny0xLjE1OS03Ljg3My0zLjI2OGwtNzkuMzMtNzkuMzEyICAgIGMtMy4xOTYtMy4xOTMtOC4zNzItMy4xOTItMTEuNTY1LDAuMDAyYy0zLjE5MiwzLjE5My0zLjE5MSw4LjM3MSwwLjAwMiwxMS41NjRsODUuNDUxLDg1LjQ0MmMyLjEwMywyLjEwMiwzLjI2LDQuODk4LDMuMjYsNy44NzIgICAgYzAsMi45OC0xLjE1OCw1Ljc3OS0zLjI1Nyw3Ljg3OGMtNC4zNDcsNC4zNDMtMTEuNDE2LDQuMzQ0LTE1Ljc1NiwwLjAwM2wtMTQuNDE2LTE0LjQxNmMtMC4wOC0wLjA4My0wLjE1OC0wLjE2Ny0wLjI0MS0wLjI0OSAgICBjLTAuMDI0LTAuMDI0LTAuMDUxLTAuMDQ1LTAuMDc2LTAuMDY5bC02Ni4yNjctNjYuMjY3Yy0zLjE5NS0zLjE5My04LjM3MS0zLjE5My0xMS41NjUsMGMtMy4xOTQsMy4xOTMtMy4xOTQsOC4zNzEsMCwxMS41NjQgICAgbDY2LjQ4LDY2LjQ3OWMyLjAzMiwyLjA4MywzLjE1MSw0LjgzOSwzLjE1MSw3Ljc2M2MwLDIuOTc0LTEuMTU5LDUuNzctMy4yNjEsNy44NzJjLTQuMzM4LDQuMzQxLTExLjQwMSw0LjM0MS0xNS43NDMsMCAgICBsLTcyLjA4NS03Mi4wODZjLTMuMTk1LTMuMTk0LTguMzcxLTMuMTk0LTExLjU2NSwwYy0zLjE5NCwzLjE5My0zLjE5NCw4LjM3MSwwLDExLjU2NGw1My40MzQsNTMuNDM1ICAgIGMwLjAxNSwwLjAxNSwwLjAyNywwLjAzMiwwLjA0MywwLjA0NmMyLjEwMSwyLjA5NywzLjI1Nyw0Ljg4OCwzLjI1Nyw3Ljg1OWMwLDIuOTczLTEuMTU4LDUuNzY5LTMuMjY5LDcuODggICAgYy0yLjA5OSwyLjEwNC00Ljg5MywzLjI2My03Ljg3LDMuMjYzYy0wLjcxOSwwLTEuNDIyLTAuMDc0LTIuMTEtMC4yMDRjMS4zMjMtOC45MTMtMS40MzYtMTguMzItOC4yODItMjUuMTY3ICAgIGMtNS41NTktNS41NTgtMTIuOTUtOC42Mi0yMC44MTEtOC42MmMtMC4yMTksMC0wLjQzNywwLjAxMS0wLjY1NiwwLjAxNmMwLjE2OC03Ljc0OS0yLjY5LTE1LjU1Mi04LjU5MS0yMS40NTMgICAgYy01LjU2LTUuNTU4LTEyLjk1LTguNjItMjAuODEyLTguNjJjLTAuNDkyLDAtMC45ODEsMC4wMTItMS40NjksMC4wMzZjMC4zOTMtOC4wMTQtMi40NjMtMTYuMTU4LTguNTctMjIuMjY2ICAgIGMtNy40MzQtNy40MzMtMTcuODg0LTEwLjA0NC0yNy40NDQtNy44NDdsLTUuODY0LTUuODY0Yy0xNi4xNC0xNi4xNDctMjYuODc4LTM2LjUzNS0zMS4wNTctNTguOTYgICAgYy0xLjUzMS04LjIxMy01LjUwMi0xNS43MTctMTEuNDgzLTIxLjY5OWwtMTQuNDE1LTE0LjQxNWw4Mi4wMS04Mi4wMWwyMC40MzgsMjAuNDM4YzcuODU2LDcuODU2LDE4LjU1MiwxMi4wNiwyOS41MDcsMTIuMDYgICAgYzQuOTA2LDAsOS44NjctMC44NDQsMTQuNjQ2LTIuNTgxYzIuMzE4LTAuODQzLDQuNzE1LTEuNDQ4LDcuMTQ0LTEuODMybC01MC42MzIsNTAuNjMzYy02LjE5NSw2LjE5NC05LjYwNywxNC40My05LjYwNywyMy4xOTEgICAgYzAsOC43NiwzLjQxMiwxNi45OTYsOS42MDYsMjMuMTljNi4zOTQsNi4zOTQsMTQuNzksOS41OSwyMy4xOSw5LjU4OWM4LjM5OCwwLDE2Ljc5Ny0zLjE5OCwyMy4xOTItOS41ODlsMjUuNDMtMjUuNDNsNi44ODMsNi44ODggICAgYzAuMDAyLDAuMDAyLDAuMDAzLDAuMDAzLDAuMDA1LDAuMDA1bDAuMjg2LDAuMjg2bDAuMjc1LDAuMjc1YzAuMDAxLDAuMDAxLDAuMDAzLDAuMDAzLDAuMDA1LDAuMDA0bDAuMDA1LDAuMDA1ICAgIGMwLjA3OSwwLjA3OCwwLjE1NiwwLjE1MiwwLjIzMywwLjIyNmw5NS44ODEsOTUuODgxYzIuMTAzLDIuMTAyLDMuMjYsNC44OTgsMy4yNiw3Ljg3MiAgICBDMzU5Ljg5MywzNTcuOTIxLDM1OC43MzYsMzYwLjcxNywzNTYuNjMsMzYyLjgyMnogTTQwOC4xMzcsMjQwLjgzNGMtNS42NzQsNS42NzUtOS40LDEyLjcyMy0xMC43NzQsMjAuMzgxICAgIGMtNC4wOCwyMi43Mi0xNC44NjcsNDMuMzY0LTMxLjE5Myw1OS42OThsLTYuMjg0LDYuMjg1bC01MS43MzEtNTEuNzMxYzEuMTI0LDAuMDgzLDIuMjUzLDAuMTM4LDMuMzksMC4xMzggICAgYzUuMjM4LDAsMTAuNTk4LTAuOTE4LDE1LjkzNC0zLjEwMWM0LjE4LTEuNzEsNi4xODItNi40ODUsNC40NzItMTAuNjY0Yy0xLjcxLTQuMTc5LTYuNDgxLTYuMTgyLTEwLjY2NC00LjQ3MiAgICBjLTIxLjA0Niw4LjYxMS00Ni4yNzgtMTUuMTItNDkuMDg3LTE3Ljg1NWMtMC4wNDctMC4wNDYtMC4wOTQtMC4wOTEtMC4xNDItMC4xMzVsLTAuMjktMC4yOSAgICBjLTAuMDAxLTAuMDAxLTAuMDAyLTAuMDAxLTAuMDAzLTAuMDAybC0wLjI1My0wLjI1MmMtMC4wMDEtMC4wMDEtMC4wMDMtMC4wMDMtMC4wMDUtMC4wMDRsLTYuODg0LTYuODg5bDcuODA2LTcuODA3ICAgIGMzLjE5NS0zLjE5NCwzLjE5NS04LjM3MSwwLjAwMS0xMS41NjVjLTMuMTk0LTMuMTkyLTguMzcxLTMuMTkzLTExLjU2NCwwbC0xMy41NywxMy41N2MtMC4wMDUsMC4wMDUtMC4wMTEsMC4wMS0wLjAxNiwwLjAxNSAgICBjLTAuMDA1LDAuMDA1LTAuMDEsMC4wMTEtMC4wMTUsMC4wMTZsLTMxLjIsMzEuMmMtNi40MTIsNi40MTEtMTYuODQyLDYuNDA5LTIzLjI1MiwwYy0zLjEwNS0zLjEwNS00LjgxNS03LjIzNC00LjgxNS0xMS42MjYgICAgYzAtNC4zOTIsMS43MS04LjUyMSw0LjgxNi0xMS42MjZsNTMuODUyLTUzLjg1NGMyLjk5Ni0yLjk5NSw2LjMyNi01LjYzLDkuOTA1LTcuODM3YzguNTAzLTUuMjU2LDE4LjMyNC04LjAzNCwyOC40MDEtOC4wMzQgICAgYzcuNjkzLDAsMTUuNDM5LDEuNjcsMjIuNDAzLDQuODMxYzE1Ljg0Miw3LjE4OCwzNC42NzEsMy44MzksNDYuODUxLTguMzM4bDExLjM4My0xMS4zODFsNjYuOTI5LDY2LjkyOUw0MDguMTM3LDI0MC44MzR6ICAgICBNNDU0LjE3MiwyMTQuOTQ0bC04Ny43MzYtODcuNzM2bDM4LjA4Ny0zOC4wODZsODcuNzM2LDg3LjczNkw0NTQuMTcyLDIxNC45NDR6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc
++Cgk8Zz4KCQk8Y2lyY2xlIGN4PSI0NjIuNDEiIGN5PSIxODMuMTEiIHI9IjguMTc3IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8Y2lyY2xlIGN4PSI1My41NjciIGN5PSIxOTEuMTg5IiByPSI4LjE3NyIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+
+<div>    
+<h3>CARE WORK</h3>
+<h4>WORK WITH US</h4>
+</div>    
+
+</section>     
+
+</div> 
+
+<div>
+
+<section class="front">
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQ5NC4zNTMsNDYuNjExbC0zMC43NjYtMzAuNzY2Yy0yMC4wNjQtMjAuMDY0LTUzLjg3Mi0yMS4yMzEtNzUuMzY2LTIuNmwtNTQuMDcxLDQ2Ljg3ICAgIGMtMC42OTIsMC42LTEuMjg2LDEuMzA2LTEuNzU4LDIuMDkxbC01Mi42MzUsODcuNjc2bC0zMy43OTYsMTEuMjY1Yy0yLjg1NiwwLjk1Mi01LjAxNSwzLjMxNS01LjcwNiw2LjI0NCAgICBjLTAuNjkxLDIuOTI5LDAuMTgzLDYuMDA3LDIuMzExLDguMTM2bDkyLjEwNSw5Mi4xMDRjMS42NDgsMS42NDcsMy44NjUsMi41NDMsNi4xNDEsMi41NDNjMC42NjUsMCwxLjMzNC0wLjA3NiwxLjk5NS0wLjIzMiAgICBjMi45MjktMC42OTEsNS4yOTItMi44NSw2LjI0NC01LjcwNmwxMS4yNjgtMzMuODA3bDg4Ljk2NS01My43MmMwLjc4My0wLjQ3NCwxLjQ4Ny0xLjA2NywyLjA4NS0xLjc2MWw0NS43Ni01My4wMjkgICAgQzUxNS42NTYsMTAwLjQ1MSw1MTQuNDA5LDY2LjY2OCw0OTQuMzUzLDQ2LjYxMXogTTQ4My45ODEsMTEwLjU3MmwtNDQuODU3LDUxLjk4MmwtOTAuNTIsNTQuNjU5ICAgIGMtMS43NjcsMS4wNjctMy4wOTYsMi43MjktMy43NDksNC42ODlsLTcuODM3LDIzLjUxMmwtMjAuNzU1LTIwLjc1NWMtMC4wMDQtMC4wMDQtMC4wMDctMC4wMDktMC4wMTEtMC4wMTNsLTMwLjcwMy0zMC43MDEgICAgYy0wLjAwMy0wLjAwMy0wLjAwNy0wLjAwNS0wLjAxLTAuMDA4bC0yMC43NTctMjAuNzU3bDIzLjUxMi03LjgzN2MxLjk2Ni0wLjY1NiwzLjYzMy0xLjk5Miw0LjY5OS0zLjc2OGw1My41NzgtODkuMjQzICAgIGw1My4wMjYtNDUuOTY0YzE0Ljc1My0xMi43OSwzNy45NDktMTIuMDAyLDUxLjcwOCwxLjc1OWwzMC43NjcsMzAuNzY2QzQ5NS44MzgsNzIuNjU3LDQ5Ni42OTQsOTUuODQxLDQ4My45ODEsMTEwLjU3MnoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00NjkuNzM2LDM0OC45MjJjLTI1LjQ5Ni0yNS40OTUtNjMuMDIxLTM0LjM1Ny05Ny4wMi0yMy4zMzVMMTg4LjE2NCwxNDEuMDM1YzExLjAyMS0zMy45OTksMi4xNTktNzEuNTI1LTIzLjMzNS05Ny4wMjEgICAgQzEzNy45NjksMTcuMTU2LDk3Ljc1OCw4Ljc1NCw2Mi4zODQsMjIuNjE4Yy0yLjcyNywxLjA2OS00LjczMywzLjQ0MS01LjMzMiw2LjMwOWMtMC41OTksMi44NjcsMC4yODgsNS44NDQsMi4zNiw3LjkxNiAgICBsNTUuMjQxLDU1LjI0TDc3LjgxLDEyOC45MjVMMjIuNTcsNzMuNjg0Yy0yLjA3My0yLjA3MS01LjA0Ni0yLjk1Ni03LjkxNi0yLjM2Yy0yLjg2OCwwLjU5OS01LjI0MSwyLjYwNC02LjMwOSw1LjMzMiAgICBjLTEzLjg2MiwzNS4zNzItNS40NjMsNzUuNTg0LDIxLjM5NiwxMDIuNDQ1YzI1LjQ5NiwyNS40OTUsNjMuMDIxLDM0LjM1OSw5Ny4wMiwyMy4zMzVsNjkuMDA4LDY5LjAwOGwtODUuOTM3LDg1LjkzOSAgICBsLTU0LjY1OCwzMC41NmMtMS41MiwwLjg1LTIuNzUsMi4xMzgtMy41MjksMy42OTZsLTI0LjU2MSw0OS4xMjJjLTEuNjcyLDMuMzQzLTEuMDE3LDcuMzgxLDEuNjI2LDEwLjAyNWwzMC43MDEsMzAuNzAyICAgIGMxLjY2NywxLjY2NywzLjg5LDIuNTQzLDYuMTQzLDIuNTQzYzEuMzE5LDAsMi42NDgtMC4zLDMuODgyLTAuOTE3bDQ5LjEyMi0yNC41NjFjMS41NTgtMC43NzksMi44NDYtMi4wMDksMy42OTYtMy41MjkgICAgbDMwLjU2LTU0LjY1OWw4NS45MzktODUuOTM2bDcyLjU2MSw3Mi41NjFjLTExLjAyMiwzMy45OTktMi4xNTksNzEuNTI1LDIzLjMzNiw5Ny4wMjFjMTguMjYzLDE4LjI2Miw0Mi42OTYsMjcuOTksNjcuNTg2LDI3Ljk5ICAgIGMxMS43MTYtMC4wMDEsMjMuNTM2LTIuMTU3LDM0Ljg1OC02LjU5M2MyLjcyNy0xLjA2OSw0LjczMy0zLjQ0MSw1LjMzMi02LjMwOWMwLjU5OS0yLjg2Ny0wLjI4OC01Ljg0NC0yLjM2LTcuOTE2bC01NS4yNDEtNTUuMjQxICAgIGwzNi44NDItMzYuODQxbDU1LjI0LDU1LjI0YzIuMDcyLDIuMDcyLDUuMDQ3LDIuOTYxLDcuOTE2LDIuMzZjMi44NjgtMC41OTksNS4yNDEtMi42MDQsNi4zMDktNS4zMzIgICAgQzUwNC45OTUsNDE1Ljk5NSw0OTYuNTk2LDM3NS43ODMsNDY5LjczNiwzNDguOTIyeiBNMTM5LjY4LDM4OC45MzVjLTAuNTY1LDAuNTY1LTEuMDQ4LDEuMjA1LTEuNDM4LDEuOTAzbC0yOS44NDMsNTMuMzc2ICAgIEw2Ny4yNjcsNDY0Ljc4bC0yMS44NS0yMS44NWwyMC41NjUtNDEuMTMzbDUzLjM3NS0yOS44NDJjMC42OTgtMC4zOSwxLjMzOC0wLjg3MywxLjkwMy0xLjQzOGw4Ni43ODktODYuNzlsMTguNDIxLDE4LjQyMSAgICBMMTM5LjY4LDM4OC45MzV6IE00NzguODYsNDMxLjczbC01MS4wNTItNTEuMDUyYy0zLjM5Mi0zLjM5LTguODg5LTMuMzktMTIuMjgxLDBsLTQ5LjEyMiw0OS4xMjIgICAgYy0xLjYyOCwxLjYyOS0yLjU0MywzLjgzNy0yLjU0Myw2LjE0MXMwLjkxNSw0LjUxMSwyLjU0Myw2LjE0MWw1MS4wNTMsNTEuMDUzYy0yNS4zMTQsNS4wMy01MS44NjEtMi43MzktNzAuNTI3LTIxLjQwNSAgICBjLTIxLjk3Ny0yMS45NzctMjguODUtNTQuODgyLTE3LjUwNy04My44MjdjMS4yNTktMy4yMTQsMC40OTYtNi44NjgtMS45NDQtOS4zMDlMMTM1LjE1NywxODYuMjcyICAgIGMtMS42Ni0xLjY1OS0zLjg4MS0yLjU0My02LjE0My0yLjU0M2MtMS4wNjQsMC0yLjEzOCwwLjE5Ni0zLjE2NiwwLjU5OWMtMjguOTQ0LDExLjM0NC02MS44NDksNC40NjktODMuODI3LTE3LjUwNiAgICBjLTE4LjY2Ny0xOC42NjgtMjYuNDM3LTQ1LjIxNi0yMS40MDQtNzAuNTI4bDUxLjA1Miw1MS4wNTNjMy4zOTIsMy4zOTEsOC44ODksMy4zODksMTIuMjgxLDBsNDkuMTIyLTQ5LjEyMiAgICBjMy4zOTEtMy4zOTIsMy4zOTEtOC44ODksMC0xMi4yODFMODIuMDIsMzQuODkxYzI1LjMxNC01LjA0LDUxLjg1OSwyLjczNiw3MC41MjcsMjEuNDA1ICAgIGMyMS45NzcsMjEuOTc3LDI4Ljg1LDU0Ljg4MiwxNy41MDcsODMuODI3Yy0xLjI1OSwzLjIxNC0wLjQ5Niw2Ljg2OCwxLjk0NCw5LjMwOWwxOTIuMzIxLDE5Mi4zMiAgICBjMi40NDIsMi40NCw2LjA5OCwzLjIwMyw5LjMwOSwxLjk0NGMyOC45NDYtMTEuMzQsNjEuODQ5LTQuNDcsODMuODI3LDE3LjUwNkM0NzYuMTI0LDM3OS44Nyw0ODMuODkyLDQwNi40MTksNDc4Ljg2LDQzMS43M3oiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+
+<div>   
+<h3>OUR SERVICE</h3>
+<h4>WHAT WE DO ?!</h4>    
+</div>  
+
+</section>    
+
+<section class="back">
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTQ5NC4zNTMsNDYuNjExbC0zMC43NjYtMzAuNzY2Yy0yMC4wNjQtMjAuMDY0LTUzLjg3Mi0yMS4yMzEtNzUuMzY2LTIuNmwtNTQuMDcxLDQ2Ljg3ICAgIGMtMC42OTIsMC42LTEuMjg2LDEuMzA2LTEuNzU4LDIuMDkxbC01Mi42MzUsODcuNjc2bC0zMy43OTYsMTEuMjY1Yy0yLjg1NiwwLjk1Mi01LjAxNSwzLjMxNS01LjcwNiw2LjI0NCAgICBjLTAuNjkxLDIuOTI5LDAuMTgzLDYuMDA3LDIuMzExLDguMTM2bDkyLjEwNSw5Mi4xMDRjMS42NDgsMS42NDcsMy44NjUsMi41NDMsNi4xNDEsMi41NDNjMC42NjUsMCwxLjMzNC0wLjA3NiwxLjk5NS0wLjIzMiAgICBjMi45MjktMC42OTEsNS4yOTItMi44NSw2LjI0NC01LjcwNmwxMS4yNjgtMzMuODA3bDg4Ljk2NS01My43MmMwLjc4My0wLjQ3NCwxLjQ4Ny0xLjA2NywyLjA4NS0xLjc2MWw0NS43Ni01My4wMjkgICAgQzUxNS42NTYsMTAwLjQ1MSw1MTQuNDA5LDY2LjY2OCw0OTQuMzUzLDQ2LjYxMXogTTQ4My45ODEsMTEwLjU3MmwtNDQuODU3LDUxLjk4MmwtOTAuNTIsNTQuNjU5ICAgIGMtMS43NjcsMS4wNjctMy4wOTYsMi43MjktMy43NDksNC42ODlsLTcuODM3LDIzLjUxMmwtMjAuNzU1LTIwLjc1NWMtMC4wMDQtMC4wMDQtMC4wMDctMC4wMDktMC4wMTEtMC4wMTNsLTMwLjcwMy0zMC43MDEgICAgYy0wLjAwMy0wLjAwMy0wLjAwNy0wLjAwNS0wLjAxLTAuMDA4bC0yMC43NTctMjAuNzU3bDIzLjUxMi03LjgzN2MxLjk2Ni0wLjY1NiwzLjYzMy0xLjk5Miw0LjY5OS0zLjc2OGw1My41NzgtODkuMjQzICAgIGw1My4wMjYtNDUuOTY0YzE0Ljc1My0xMi43OSwzNy45NDktMTIuMDAyLDUxLjcwOCwxLjc1OWwzMC43NjcsMzAuNzY2QzQ5NS44MzgsNzIuNjU3LDQ5Ni42OTQsOTUuODQxLDQ4My45ODEsMTEwLjU3MnoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik00NjkuNzM2LDM0OC45MjJjLTI1LjQ5Ni0yNS40OTUtNjMuMDIxLTM0LjM1Ny05Ny4wMi0yMy4zMzVMMTg4LjE2NCwxNDEuMDM1YzExLjAyMS0zMy45OTksMi4xNTktNzEuNTI1LTIzLjMzNS05Ny4wMjEgICAgQzEzNy45NjksMTcuMTU2LDk3Ljc1OCw4Ljc1NCw2Mi4zODQsMjIuNjE4Yy0yLjcyNywxLjA2OS00LjczMywzLjQ0MS01LjMzMiw2LjMwOWMtMC41OTksMi44NjcsMC4yODgsNS44NDQsMi4zNiw3LjkxNiAgICBsNTUuMjQxLDU1LjI0TDc3LjgxLDEyOC45MjVMMjIuNTcsNzMuNjg0Yy0yLjA3My0yLjA3MS01LjA0Ni0yLjk1Ni03LjkxNi0yLjM2Yy0yLjg2OCwwLjU5OS01LjI0MSwyLjYwNC02LjMwOSw1LjMzMiAgICBjLTEzLjg2MiwzNS4zNzItNS40NjMsNzUuNTg0LDIxLjM5NiwxMDIuNDQ1YzI1LjQ5NiwyNS40OTUsNjMuMDIxLDM0LjM1OSw5Ny4wMiwyMy4zMzVsNjkuMDA4LDY5LjAwOGwtODUuOTM3LDg1LjkzOSAgICBsLTU0LjY1OCwzMC41NmMtMS41MiwwLjg1LTIuNzUsMi4xMzgtMy41MjksMy42OTZsLTI0LjU2MSw0OS4xMjJjLTEuNjcyLDMuMzQzLTEuMDE3LDcuMzgxLDEuNjI2LDEwLjAyNWwzMC43MDEsMzAuNzAyICAgIGMxLjY2NywxLjY2NywzLjg5LDIuNTQzLDYuMTQzLDIuNTQzYzEuMzE5LDAsMi42NDgtMC4zLDMuODgyLTAuOTE3bDQ5LjEyMi0yNC41NjFjMS41NTgtMC43NzksMi44NDYtMi4wMDksMy42OTYtMy41MjkgICAgbDMwLjU2LTU0LjY1OWw4NS45MzktODUuOTM2bDcyLjU2MSw3Mi41NjFjLTExLjAyMiwzMy45OTktMi4xNTksNzEuNTI1LDIzLjMzNiw5Ny4wMjFjMTguMjYzLDE4LjI2Miw0Mi42OTYsMjcuOTksNjcuNTg2LDI3Ljk5ICAgIGMxMS43MTYtMC4wMDEsMjMuNTM2LTIuMTU3LDM0Ljg1OC02LjU5M2MyLjcyNy0xLjA2OSw0LjczMy0zLjQ0MSw1LjMzMi02LjMwOWMwLjU5OS0yLjg2Ny0wLjI4OC01Ljg0NC0yLjM2LTcuOTE2bC01NS4yNDEtNTUuMjQxICAgIGwzNi44NDItMzYuODQxbDU1LjI0LDU1LjI0YzIuMDcyLDIuMDcyLDUuMDQ3LDIuOTYxLDcuOTE2LDIuMzZjMi44NjgtMC41OTksNS4yNDEtMi42MDQsNi4zMDktNS4zMzIgICAgQzUwNC45OTUsNDE1Ljk5NSw0OTYuNTk2LDM3NS43ODMsNDY5LjczNiwzNDguOTIyeiBNMTM5LjY4LDM4OC45MzVjLTAuNTY1LDAuNTY1LTEuMDQ4LDEuMjA1LTEuNDM4LDEuOTAzbC0yOS44NDMsNTMuMzc2ICAgIEw2Ny4yNjcsNDY0Ljc4bC0yMS44NS0yMS44NWwyMC41NjUtNDEuMTMzbDUzLjM3NS0yOS44NDJjMC42OTgtMC4zOSwxLjMzOC0wLjg3MywxLjkwMy0xLjQzOGw4Ni43ODktODYuNzlsMTguNDIxLDE4LjQyMSAgICBMMTM5LjY4LDM4OC45MzV6IE00NzguODYsNDMxLjczbC01MS4wNTItNTEuMDUyYy0zLjM5Mi0zLjM5LTguODg5LTMuMzktMTIuMjgxLDBsLTQ5LjEyMiw0OS4xMjIgICAgYy0xLjYyOCwxLjYyOS0yLjU0MywzLjgzNy0yLjU0Myw2LjE0MXMwLjkxNSw0LjUxMSwyLjU0Myw2LjE0MWw1MS4wNTMsNTEuMDUzYy0yNS4zMTQsNS4wMy01MS44NjEtMi43MzktNzAuNTI3LTIxLjQwNSAgICBjLTIxLjk3Ny0yMS45NzctMjguODUtNTQuODgyLTE3LjUwNy04My44MjdjMS4yNTktMy4yMTQsMC40OTYtNi44NjgtMS45NDQtOS4zMDlMMTM1LjE1NywxODYuMjcyICAgIGMtMS42Ni0xLjY1OS0zLjg4MS0yLjU0My02LjE0My0yLjU0M2MtMS4wNjQsMC0yLjEzOCwwLjE5Ni0zLjE2NiwwLjU5OWMtMjguOTQ0LDExLjM0NC02MS44NDksNC40NjktODMuODI3LTE3LjUwNiAgICBjLTE4LjY2Ny0xOC42NjgtMjYuNDM3LTQ1LjIxNi0yMS40MDQtNzAuNTI4bDUxLjA1Miw1MS4wNTNjMy4zOTIsMy4zOTEsOC44ODksMy4zODksMTIuMjgxLDBsNDkuMTIyLTQ5LjEyMiAgICBjMy4zOTEtMy4zOTIsMy4zOTEtOC44ODksMC0xMi4yODFMODIuMDIsMzQuODkxYzI1LjMxNC01LjA0LDUxLjg1OSwyLjczNiw3MC41MjcsMjEuNDA1ICAgIGMyMS45NzcsMjEuOTc3LDI4Ljg1LDU0Ljg4MiwxNy41MDcsODMuODI3Yy0xLjI1OSwzLjIxNC0wLjQ5Niw2Ljg2OCwxLjk0NCw5LjMwOWwxOTIuMzIxLDE5Mi4zMiAgICBjMi40NDIsMi40NCw2LjA5OCwzLjIwMyw5LjMwOSwxLjk0NGMyOC45NDYtMTEuMzQsNjEuODQ5LTQuNDcsODMuODI3LDE3LjUwNkM0NzYuMTI0LDM3OS44Nyw0ODMuODkyLDQwNi40MTksNDc4Ljg2LDQzMS43M3oiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+
+<div>  
+<h3>OUR SERVICE</h3>
+<h4>WHAT WE DO ?!</h4>    
+</div>     
+
+</section>     
+
+</div> 
+
+<div>
+
+<section class="front">
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDMzLjIzMSwzOS4zODVoLTY4LjkyM3YtOS44NDZjMC01LjQzNy00LjQwOS05Ljg0Ni05Ljg0Ni05Ljg0NmgtNTkuMDkxQzI4Ni4xMzksNy40MTksMjcxLjUzMywwLDI1NiwwICAgIHMtMzAuMTM5LDcuNDE5LTM5LjM3MSwxOS42OTJoLTU5LjA5MWMtNS40MzcsMC05Ljg0Niw0LjQwOS05Ljg0Niw5Ljg0NnY5Ljg0Nkg3OC43NjljLTUuNDM3LDAtOS44NDYsNC40MDktOS44NDYsOS44NDZ2NDUyLjkyMyAgICBjMCw1LjQzNyw0LjQwOSw5Ljg0Niw5Ljg0Niw5Ljg0NmgzNTQuNDYyYzUuNDM3LDAsOS44NDYtNC40MDksOS44NDYtOS44NDZWNDkuMjMxQzQ0My4wNzcsNDMuNzk0LDQzOC42NjgsMzkuMzg1LDQzMy4yMzEsMzkuMzg1eiAgICAgTTE2Ny4zODUsMzkuMzg1aDU0LjUxM2MzLjUxNCwwLDYuNzYyLTEuODczLDguNTIyLTQuOTE1YzUuMjc1LTkuMTE1LDE1LjA3Ni0xNC43NzcsMjUuNTgtMTQuNzc3ICAgIGMxMC41MDQsMCwyMC4zMDYsNS42NjMsMjUuNTc5LDE0Ljc3N2MxLjc1OSwzLjA0Miw1LjAwOCw0LjkxNSw4LjUyMiw0LjkxNWg1NC41MTR2MzkuMzg1SDE2Ny4zODVWMzkuMzg1eiBNNDIzLjM4NSw0NTIuOTIzICAgIGgtNDkuMjMxYy01LjQzNywwLTkuODQ2LDQuNDA5LTkuODQ2LDkuODQ2czQuNDA5LDkuODQ2LDkuODQ2LDkuODQ2aDQ5LjIzMXYxOS42OTJIODguNjE1VjU5LjA3N2g1OS4wNzd2MjkuNTM4ICAgIGMwLDUuNDM3LDQuNDA5LDkuODQ2LDkuODQ2LDkuODQ2aDE5Ni45MjNjNS40MzcsMCw5Ljg0Ni00LjQwOSw5Ljg0Ni05Ljg0NlY1OS4wNzdoNTkuMDc3VjQ1Mi45MjN6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjAzLjE1MSwxMzAuMjJjLTQuMjEyLTMuNDM5LTEwLjQxNC0yLjgxNC0xMy44NTQsMS4zOThsLTQwLjQxOCw0OS40OTJsLTIyLjk0My0yOS42MDIgICAgYy0zLjMzMS00LjI5OC05LjUxNi01LjA4My0xMy44MTQtMS43NTFjLTQuMjk4LDMuMzMxLTUuMDgyLDkuNTE2LTEuNzUxLDEzLjgxNGwzMC41MjMsMzkuMzg1ICAgIGMxLjgzOCwyLjM3MSw0LjY1NiwzLjc3NSw3LjY1NiwzLjgxM2MwLjA0MiwwLDAuMDg1LDAsMC4xMjYsMGMyLjk1NCwwLDUuNzU1LTEuMzI3LDcuNjI2LTMuNjE4bDQ4LjI0Ni01OS4wNzcgICAgQzIwNy45ODgsMTM5Ljg2MywyMDcuMzYzLDEzMy42NiwyMDMuMTUxLDEzMC4yMnoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0zOTMuODQ2LDEzNy44NDZIMjM2LjMwOGMtNS40MzcsMC05Ljg0Niw0LjQwOS05Ljg0Niw5Ljg0NmMwLDUuNDM3LDQuNDA5LDkuODQ2LDkuODQ2LDkuODQ2aDE1Ny41MzggICAgYzUuNDM3LDAsOS44NDYtNC40MDksOS44NDYtOS44NDZDNDAzLjY5MiwxNDIuMjU1LDM5OS4yODMsMTM3Ljg0NiwzOTMuODQ2LDEzNy44NDZ6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjk1LjM4NSwxNzcuMjMxaC01OS4wNzdjLTUuNDM3LDAtOS44NDYsNC40MDktOS44NDYsOS44NDZjMCw1LjQzNyw0LjQwOSw5Ljg0Niw5Ljg0Niw5Ljg0Nmg1OS4wNzcgICAgYzUuNDM3LDAsOS44NDYtNC40MDksOS44NDYtOS44NDZDMzA1LjIzMSwxODEuNjQsMzAwLjgyMiwxNzcuMjMxLDI5NS4zODUsMTc3LjIzMXoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMDMuMTUxLDI0OC4zNzRjLTQuMjEyLTMuNDM5LTEwLjQxNC0yLjgxNC0xMy44NTQsMS4zOThsLTQwLjQxOCw0OS40OTJsLTIyLjk0My0yOS42MDIgICAgYy0zLjMzMS00LjI5OC05LjUxNi01LjA4My0xMy44MTQtMS43NTFjLTQuMjk4LDMuMzMxLTUuMDgyLDkuNTE2LTEuNzUxLDEzLjgxNGwzMC41MjMsMzkuMzg1ICAgIGMxLjgzOCwyLjM3MSw0LjY1NiwzLjc3NSw3LjY1NiwzLjgxM2MwLjA0MiwwLDAuMDg1LDAsMC4xMjYsMGMyLjk1NCwwLDUuNzU1LTEuMzI3LDcuNjI2LTMuNjE4bDQ4LjI0Ni01OS4wNzcgICAgQzIwNy45ODgsMjU4LjAxNiwyMDcuMzYzLDI1MS44MTMsMjAzLjE1MSwyNDguMzc0eiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM5My44NDYsMjU2SDIzNi4zMDhjLTUuNDM3LDAtOS44NDYsNC40MDktOS44NDYsOS44NDZjMCw1LjQzNyw0LjQwOSw5Ljg0Niw5Ljg0Niw5Ljg0NmgxNTcuNTM4ICAgIGM1LjQzNywwLDkuODQ2LTQuNDA5LDkuODQ2LTkuODQ2QzQwMy42OTIsMjYwLjQwOSwzOTkuMjgzLDI1NiwzOTMuODQ2LDI1NnoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yOTUuMzg1LDI5NS4zODVoLTU5LjA3N2MtNS40MzcsMC05Ljg0Niw0LjQwOS05Ljg0Niw5Ljg0NnM0LjQwOSw5Ljg0Niw5Ljg0Niw5Ljg0Nmg1OS4wNzcgICAgYzUuNDM3LDAsOS44NDYtNC40MDksOS44NDYtOS44NDZTMzAwLjgyMiwyOTUuMzg1LDI5NS4zODUsMjk1LjM4NXoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMDMuMTUxLDM2Ni41MjhjLTQuMjEyLTMuNDM5LTEwLjQxNC0yLjgxNC0xMy44NTQsMS4zOThsLTQwLjQxOCw0OS40OTJsLTIyLjk0My0yOS42MDIgICAgYy0zLjMzMS00LjI5OC05LjUxNi01LjA4My0xMy44MTQtMS43NTFjLTQuMjk4LDMuMzMxLTUuMDgyLDkuNTE2LTEuNzUxLDEzLjgxNGwzMC41MjMsMzkuMzg1ICAgIGMxLjgzOCwyLjM3MSw0LjY1NiwzLjc3NSw3LjY1NiwzLjgxM2MwLjA0MiwwLDAuMDg1LDAsMC4xMjYsMGMyLjk1NCwwLDUuNzU1LTEuMzI3LDcuNjI2LTMuNjE4bDQ4LjI0Ni01OS4wNzcgICAgQzIwNy45ODgsMzc2LjE3LDIwNy4zNjMsMzY5Ljk2NywyMDMuMTUxLDM2Ni41Mjh6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzkzLjg0NiwzNzQuMTU0SDIzNi4zMDhjLTUuNDM3LDAtOS44NDYsNC40MDktOS44NDYsOS44NDZzNC40MDksOS44NDYsOS44NDYsOS44NDZoMTU3LjUzOCAgICBjNS40MzcsMCw5Ljg0Ni00LjQwOSw5Ljg0Ni05Ljg0NlMzOTkuMjgzLDM3NC4xNTQsMzkzLjg0NiwzNzQuMTU0eiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTI5NS4zODUsNDEzLjUzOGgtNTkuMDc3Yy01LjQzNywwLTkuODQ2LDQuNDA5LTkuODQ2LDkuODQ2YzAsNS40MzcsNC40MDksOS44NDYsOS44NDYsOS44NDZoNTkuMDc3ICAgIGM1LjQzNywwLDkuODQ2LTQuNDA5LDkuODQ2LTkuODQ2QzMwNS4yMzEsNDE3Ljk0OCwzMDAuODIyLDQxMy41MzgsMjk1LjM4NSw0MTMuNTM4eiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM1MS41NzYsNDU1LjgwOGMtMS44My0xLjgzMi00LjM3MS0yLjg4NS02Ljk2LTIuODg1Yy0yLjU5LDAtNS4xMywxLjA1My02Ljk2MSwyLjg4NSAgICBjLTEuODMxLDEuODMyLTIuODg1LDQuMzcyLTIuODg1LDYuOTYxczEuMDUzLDUuMTMsMi44ODUsNi45NmMxLjgzMSwxLjgzMSw0LjM3MiwyLjg4Niw2Ljk2MSwyLjg4NmMyLjU5LDAsNS4xMy0xLjA1NCw2Ljk2LTIuODg2ICAgIGMxLjgzMi0xLjgzLDIuODg2LTQuMzcxLDIuODg2LTYuOTZTMzUzLjQwOCw0NTcuNjM5LDM1MS41NzYsNDU1LjgwOHoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+
+<div>
+<h3>GET A QUOTE</h3>
+<h4>GET A QUOTE FORM</h4>
+</div> 
+
+</section>    
+
+<section class="back">
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNNDMzLjIzMSwzOS4zODVoLTY4LjkyM3YtOS44NDZjMC01LjQzNy00LjQwOS05Ljg0Ni05Ljg0Ni05Ljg0NmgtNTkuMDkxQzI4Ni4xMzksNy40MTksMjcxLjUzMywwLDI1NiwwICAgIHMtMzAuMTM5LDcuNDE5LTM5LjM3MSwxOS42OTJoLTU5LjA5MWMtNS40MzcsMC05Ljg0Niw0LjQwOS05Ljg0Niw5Ljg0NnY5Ljg0Nkg3OC43NjljLTUuNDM3LDAtOS44NDYsNC40MDktOS44NDYsOS44NDZ2NDUyLjkyMyAgICBjMCw1LjQzNyw0LjQwOSw5Ljg0Niw5Ljg0Niw5Ljg0NmgzNTQuNDYyYzUuNDM3LDAsOS44NDYtNC40MDksOS44NDYtOS44NDZWNDkuMjMxQzQ0My4wNzcsNDMuNzk0LDQzOC42NjgsMzkuMzg1LDQzMy4yMzEsMzkuMzg1eiAgICAgTTE2Ny4zODUsMzkuMzg1aDU0LjUxM2MzLjUxNCwwLDYuNzYyLTEuODczLDguNTIyLTQuOTE1YzUuMjc1LTkuMTE1LDE1LjA3Ni0xNC43NzcsMjUuNTgtMTQuNzc3ICAgIGMxMC41MDQsMCwyMC4zMDYsNS42NjMsMjUuNTc5LDE0Ljc3N2MxLjc1OSwzLjA0Miw1LjAwOCw0LjkxNSw4LjUyMiw0LjkxNWg1NC41MTR2MzkuMzg1SDE2Ny4zODVWMzkuMzg1eiBNNDIzLjM4NSw0NTIuOTIzICAgIGgtNDkuMjMxYy01LjQzNywwLTkuODQ2LDQuNDA5LTkuODQ2LDkuODQ2czQuNDA5LDkuODQ2LDkuODQ2LDkuODQ2aDQ5LjIzMXYxOS42OTJIODguNjE1VjU5LjA3N2g1OS4wNzd2MjkuNTM4ICAgIGMwLDUuNDM3LDQuNDA5LDkuODQ2LDkuODQ2LDkuODQ2aDE5Ni45MjNjNS40MzcsMCw5Ljg0Ni00LjQwOSw5Ljg0Ni05Ljg0NlY1OS4wNzdoNTkuMDc3VjQ1Mi45MjN6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjAzLjE1MSwxMzAuMjJjLTQuMjEyLTMuNDM5LTEwLjQxNC0yLjgxNC0xMy44NTQsMS4zOThsLTQwLjQxOCw0OS40OTJsLTIyLjk0My0yOS42MDIgICAgYy0zLjMzMS00LjI5OC05LjUxNi01LjA4My0xMy44MTQtMS43NTFjLTQuMjk4LDMuMzMxLTUuMDgyLDkuNTE2LTEuNzUxLDEzLjgxNGwzMC41MjMsMzkuMzg1ICAgIGMxLjgzOCwyLjM3MSw0LjY1NiwzLjc3NSw3LjY1NiwzLjgxM2MwLjA0MiwwLDAuMDg1LDAsMC4xMjYsMGMyLjk1NCwwLDUuNzU1LTEuMzI3LDcuNjI2LTMuNjE4bDQ4LjI0Ni01OS4wNzcgICAgQzIwNy45ODgsMTM5Ljg2MywyMDcuMzYzLDEzMy42NiwyMDMuMTUxLDEzMC4yMnoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0zOTMuODQ2LDEzNy44NDZIMjM2LjMwOGMtNS40MzcsMC05Ljg0Niw0LjQwOS05Ljg0Niw5Ljg0NmMwLDUuNDM3LDQuNDA5LDkuODQ2LDkuODQ2LDkuODQ2aDE1Ny41MzggICAgYzUuNDM3LDAsOS44NDYtNC40MDksOS44NDYtOS44NDZDNDAzLjY5MiwxNDIuMjU1LDM5OS4yODMsMTM3Ljg0NiwzOTMuODQ2LDEzNy44NDZ6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMjk1LjM4NSwxNzcuMjMxaC01OS4wNzdjLTUuNDM3LDAtOS44NDYsNC40MDktOS44NDYsOS44NDZjMCw1LjQzNyw0LjQwOSw5Ljg0Niw5Ljg0Niw5Ljg0Nmg1OS4wNzcgICAgYzUuNDM3LDAsOS44NDYtNC40MDksOS44NDYtOS44NDZDMzA1LjIzMSwxODEuNjQsMzAwLjgyMiwxNzcuMjMxLDI5NS4zODUsMTc3LjIzMXoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMDMuMTUxLDI0OC4zNzRjLTQuMjEyLTMuNDM5LTEwLjQxNC0yLjgxNC0xMy44NTQsMS4zOThsLTQwLjQxOCw0OS40OTJsLTIyLjk0My0yOS42MDIgICAgYy0zLjMzMS00LjI5OC05LjUxNi01LjA4My0xMy44MTQtMS43NTFjLTQuMjk4LDMuMzMxLTUuMDgyLDkuNTE2LTEuNzUxLDEzLjgxNGwzMC41MjMsMzkuMzg1ICAgIGMxLjgzOCwyLjM3MSw0LjY1NiwzLjc3NSw3LjY1NiwzLjgxM2MwLjA0MiwwLDAuMDg1LDAsMC4xMjYsMGMyLjk1NCwwLDUuNzU1LTEuMzI3LDcuNjI2LTMuNjE4bDQ4LjI0Ni01OS4wNzcgICAgQzIwNy45ODgsMjU4LjAxNiwyMDcuMzYzLDI1MS44MTMsMjAzLjE1MSwyNDguMzc0eiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM5My44NDYsMjU2SDIzNi4zMDhjLTUuNDM3LDAtOS44NDYsNC40MDktOS44NDYsOS44NDZjMCw1LjQzNyw0LjQwOSw5Ljg0Niw5Ljg0Niw5Ljg0NmgxNTcuNTM4ICAgIGM1LjQzNywwLDkuODQ2LTQuNDA5LDkuODQ2LTkuODQ2QzQwMy42OTIsMjYwLjQwOSwzOTkuMjgzLDI1NiwzOTMuODQ2LDI1NnoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yOTUuMzg1LDI5NS4zODVoLTU5LjA3N2MtNS40MzcsMC05Ljg0Niw0LjQwOS05Ljg0Niw5Ljg0NnM0LjQwOSw5Ljg0Niw5Ljg0Niw5Ljg0Nmg1OS4wNzcgICAgYzUuNDM3LDAsOS44NDYtNC40MDksOS44NDYtOS44NDZTMzAwLjgyMiwyOTUuMzg1LDI5NS4zODUsMjk1LjM4NXoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KCTxnPgoJCTxwYXRoIGQ9Ik0yMDMuMTUxLDM2Ni41MjhjLTQuMjEyLTMuNDM5LTEwLjQxNC0yLjgxNC0xMy44NTQsMS4zOThsLTQwLjQxOCw0OS40OTJsLTIyLjk0My0yOS42MDIgICAgYy0zLjMzMS00LjI5OC05LjUxNi01LjA4My0xMy44MTQtMS43NTFjLTQuMjk4LDMuMzMxLTUuMDgyLDkuNTE2LTEuNzUxLDEzLjgxNGwzMC41MjMsMzkuMzg1ICAgIGMxLjgzOCwyLjM3MSw0LjY1NiwzLjc3NSw3LjY1NiwzLjgxM2MwLjA0MiwwLDAuMDg1LDAsMC4xMjYsMGMyLjk1NCwwLDUuNzU1LTEuMzI3LDcuNjI2LTMuNjE4bDQ4LjI0Ni01OS4wNzcgICAgQzIwNy45ODgsMzc2LjE3LDIwNy4zNjMsMzY5Ljk2NywyMDMuMTUxLDM2Ni41Mjh6IiBmaWxsPSIjRDgwMDI3Ii8+Cgk8L2c+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBkPSJNMzkzLjg0NiwzNzQuMTU0SDIzNi4zMDhjLTUuNDM3LDAtOS44NDYsNC40MDktOS44NDYsOS44NDZzNC40MDksOS44NDYsOS44NDYsOS44NDZoMTU3LjUzOCAgICBjNS40MzcsMCw5Ljg0Ni00LjQwOSw5Ljg0Ni05Ljg0NlMzOTkuMjgzLDM3NC4xNTQsMzkzLjg0NiwzNzQuMTU0eiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTI5NS4zODUsNDEzLjUzOGgtNTkuMDc3Yy01LjQzNywwLTkuODQ2LDQuNDA5LTkuODQ2LDkuODQ2YzAsNS40MzcsNC40MDksOS44NDYsOS44NDYsOS44NDZoNTkuMDc3ICAgIGM1LjQzNywwLDkuODQ2LTQuNDA5LDkuODQ2LTkuODQ2QzMwNS4yMzEsNDE3Ljk0OCwzMDAuODIyLDQxMy41MzgsMjk1LjM4NSw0MTMuNTM4eiIgZmlsbD0iI0Q4MDAyNyIvPgoJPC9nPgo8L2c+CjxnPgoJPGc+CgkJPHBhdGggZD0iTTM1MS41NzYsNDU1LjgwOGMtMS44My0xLjgzMi00LjM3MS0yLjg4NS02Ljk2LTIuODg1Yy0yLjU5LDAtNS4xMywxLjA1My02Ljk2MSwyLjg4NSAgICBjLTEuODMxLDEuODMyLTIuODg1LDQuMzcyLTIuODg1LDYuOTYxczEuMDUzLDUuMTMsMi44ODUsNi45NmMxLjgzMSwxLjgzMSw0LjM3MiwyLjg4Niw2Ljk2MSwyLjg4NmMyLjU5LDAsNS4xMy0xLjA1NCw2Ljk2LTIuODg2ICAgIGMxLjgzMi0xLjgzLDIuODg2LTQuMzcxLDIuODg2LTYuOTZTMzUzLjQwOCw0NTcuNjM5LDM1MS41NzYsNDU1LjgwOHoiIGZpbGw9IiNEODAwMjciLz4KCTwvZz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" />
+
+<div>
+<h3>GET A QUOTE</h3>
+<h4>GET A QUOTE FORM</h4>
+</div> 
+
+</section>    
+
+</div>  
+
+<div>
+
+<section class="front">
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMxLjAxMiAzMS4wMTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMxLjAxMiAzMS4wMTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8cGF0aCBkPSJNMjguNTEyLDI2LjUyOUgyLjVjLTEuMzc4LDAtMi41LTEuMTIxLTIuNS0yLjVWNi45ODJjMC0xLjM3OSwxLjEyMi0yLjUsMi41LTIuNWgyNi4wMTJjMS4zNzgsMCwyLjUsMS4xMjEsMi41LDIuNXYxNy4wNDcgICBDMzEuMDEyLDI1LjQwOCwyOS44OSwyNi41MjksMjguNTEyLDI2LjUyOXogTTIuNSw1LjQ4MmMtMC44MjcsMC0xLjUsMC42NzMtMS41LDEuNXYxNy4wNDdjMCwwLjgyNywwLjY3MywxLjUsMS41LDEuNWgyNi4wMTIgICBjMC44MjcsMCwxLjUtMC42NzMsMS41LTEuNVY2Ljk4MmMwLTAuODI3LTAuNjczLTEuNS0xLjUtMS41SDIuNXoiIGZpbGw9IiNEODAwMjciLz4KCTxwYXRoIGQ9Ik0xNS41MDYsMTguMDE4Yy0wLjY2NSwwLTEuMzMtMC4yMjEtMS44MzYtMC42NjJMMC44OTEsNi4yMTljLTAuMjA4LTAuMTgyLTAuMjMtMC40OTctMC4wNDgtMC43MDUgICBjMC4xODItMC4yMSwwLjQ5OC0wLjIzLDAuNzA2LTAuMDQ5bDEyLjc3OCwxMS4xMzdjMC42NCwwLjU1NywxLjcyLDAuNTU2LDIuMzU4LDBMMjkuNDYsNS40NjZjMC4yMDctMC4xODMsMC41MjItMC4xNjIsMC43MDYsMC4wNDkgICBjMC4xODIsMC4yMDgsMC4xNiwwLjUyMy0wLjA0OCwwLjcwNUwxNy4zNDIsMTcuMzU1QzE2LjgzNiwxNy43OTcsMTYuMTcxLDE4LjAxOCwxNS41MDYsMTguMDE4eiIgZmlsbD0iI0Q4MDAyNyIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+
+<div>
+<h3>CONTACT</h3>
+<h4>CONTACT WITH US</h4>
+</div> 
+
+</section>    
+
+<section class="back">
+
+<img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDMxLjAxMiAzMS4wMTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMxLjAxMiAzMS4wMTI7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iNjRweCIgaGVpZ2h0PSI2NHB4Ij4KPGc+Cgk8cGF0aCBkPSJNMjguNTEyLDI2LjUyOUgyLjVjLTEuMzc4LDAtMi41LTEuMTIxLTIuNS0yLjVWNi45ODJjMC0xLjM3OSwxLjEyMi0yLjUsMi41LTIuNWgyNi4wMTJjMS4zNzgsMCwyLjUsMS4xMjEsMi41LDIuNXYxNy4wNDcgICBDMzEuMDEyLDI1LjQwOCwyOS44OSwyNi41MjksMjguNTEyLDI2LjUyOXogTTIuNSw1LjQ4MmMtMC44MjcsMC0xLjUsMC42NzMtMS41LDEuNXYxNy4wNDdjMCwwLjgyNywwLjY3MywxLjUsMS41LDEuNWgyNi4wMTIgICBjMC44MjcsMCwxLjUtMC42NzMsMS41LTEuNVY2Ljk4MmMwLTAuODI3LTAuNjczLTEuNS0xLjUtMS41SDIuNXoiIGZpbGw9IiNEODAwMjciLz4KCTxwYXRoIGQ9Ik0xNS41MDYsMTguMDE4Yy0wLjY2NSwwLTEuMzMtMC4yMjEtMS44MzYtMC42NjJMMC44OTEsNi4yMTljLTAuMjA4LTAuMTgyLTAuMjMtMC40OTctMC4wNDgtMC43MDUgICBjMC4xODItMC4yMSwwLjQ5OC0wLjIzLDAuNzA2LTAuMDQ5bDEyLjc3OCwxMS4xMzdjMC42NCwwLjU1NywxLjcyLDAuNTU2LDIuMzU4LDBMMjkuNDYsNS40NjZjMC4yMDctMC4xODMsMC41MjItMC4xNjIsMC43MDYsMC4wNDkgICBjMC4xODIsMC4yMDgsMC4xNiwwLjUyMy0wLjA0OCwwLjcwNUwxNy4zNDIsMTcuMzU1QzE2LjgzNiwxNy43OTcsMTYuMTcxLDE4LjAxOCwxNS41MDYsMTguMDE4eiIgZmlsbD0iI0Q4MDAyNyIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" />
+
+<div>
+<h3>CONTACT</h3>
+<h4>CONTACT WITH US</h4>
+</div>
+
+</section>      
+
+</div>   
+
+</div>    
+
+</div>
+<!---------- collaborate ------------->     
+
+<div class="footer">
+
+<div class="company">
+
+<h3>ABOUT COMPANY</h3>    
+
+<h2>Consti<span>Co</span></h2> 
+
+<p>Constico is a diversified construction company, made up of teams of people who are proven in their industries. All working to design, build, transport, operate, and maintain projects all over the USA.</p>    
+
+</div>
+
+<div class="events">
+
+<h3>RECENT EVENTS</h3>  
+
+<div>
+<span>CAREER</span>  
+<span>CERTIFICATIONS</span>    
+</div> 
+
+<h4>Sandford stadium improvements</h4>
+
+<h5>NOVEMBER 8, 2017</h5>    
+
+</div>    
+
+<div class="information">
+
+<h3>INFORMATION</h3>  
+
+<ul>
+<li><i class="fa fa-chevron-right"></i> CAREER</li>    
+<li><i class="fa fa-chevron-right"></i> CERTIFICATIONS</li>    
+<li><i class="fa fa-chevron-right"></i> COMPANY HISTORY</li>    
+<li><i class="fa fa-chevron-right"></i> CORE VALUES</li>    
+<li><i class="fa fa-chevron-right"></i> FAQ</li>    
+<li><i class="fa fa-chevron-right"></i> GALLERY</li>    
+<li><i class="fa fa-chevron-right"></i> OUR COMPANY</li>    
+<li><i class="fa fa-chevron-right"></i> OUR SERVICES</li>    
+</ul>    
+
+</div>  
+
+<div class="contact">
+
+<h3>CONTACT INFO</h3>   
+
+<ul>    
+<li><i class="fa fa-map-marker"></i> ADDRESS: 4578 MARMORA ROAD ,<br>GLASGOW</li>    
+<li><i class="fa fa-mobile"></i> CUSTOM SUPPORT & SCALE:<br>+7-495-1234567</li>  
+<li><i class="fa fa-clock-o"></i> WORKING TIME:<br>MON-SAT: 08:00-18:00</li>   
+<li><i class="fa fa-envelope-o"></i> EMAIL: infosamer@gmail.org</li>
+</ul>    
+
+</div>    
+
+</div>    
+
+
+<div class="footer2">Copy Right 2018 All Rights For Samer.M</div>    
+
+<!----- NavBar ---->
+<div class="nav">
+
+<ul>
+<li>LINK 1</li>    
+<li>LINK 2</li>    
+<li>LINK 3</li>    
+<li>LINK 4</li>    
+<li>LINK 5</li>    
+</ul>
+
+<i class="fa fa-bars"></i>   
+<i class="fa fa-times"></i> 
+
+</div>
+<!----- NavBar ---->     
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.2.0.min.js"></script>  
+<script src="responsive.js"></script>    
+<script src="js/bootstrap.min.js"></script>     
+</body>
+</html>
